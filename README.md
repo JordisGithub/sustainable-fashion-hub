@@ -52,56 +52,50 @@ Project Inspiration:
 
 ## The sustainability rating parameters:
 
+#### Animal
+
+> Rating total weighted at 35%
+
+| parameter | weight | Description | 
+| --- | :---: | :---: |  
+| Policy | 10% | Implementation of policies to ensure animal welfare |
+| Fur | 10% | Use of fur, shearling and karakul lamb fur and commitment not to use fur | 
+| Leather | 10% | Use of leather and if upcycled/recycled | 
+| Wool | 10% | Use of wool and if sourced from non-mulesed sheep or upcycled/recycled | 
+| Down and feathers  | 10% | Use of down and feathers and how sourced | 
+| Angora | 10% | Use of angora and commitment not to use angora | 
+| Exotic animal hairs  | 10% | Use of exotic animal hair such as pashmina, cashmere, mohair, alpaca, llama, vicuña and shahtoosh | 
+| Exotic animal skins | 10% | Use of exotic animal skin such as crocodile and alligator | 
+
+
+
+
 #### Labor
 
 > Rating total weighted at 35%
 
 | parameter | weight | Description | 
 | --- | :---: | :---: |  
-| Worker policies and empowerment | 10% | "Protection of workers’ rights across the supply chain including monitoring health and safety, child labour, forced labour, freedom of association, collective bargaining, non-discrimination, gender equality, modern slavery, non-excessive hours and the right and capacity to make a complaint" | 
-| Low risk production | 10% | "Management of labour abuse risk in supply chains and participation in multi-stakeholder initiatives to improve labour conditions" |
-| Living wage | 10% | "Living wage definition, methodology and implementation across the supply chain" | 
-| Knowing suppliers | 10% | "Supply chain transparency including publishing supplier lists and tracking subcontractors" | 
-| Supplier relationships | 20% | "Auditing and assurance practices across the supply chain and public reporting including unannounced visits and off-site worker interviews" | 
-		
-2. Environment	
-Resource management and disposal	
-"Types of materials used, efforts to reduce or eliminate waste in design and manufacturing, types of packaging used, management of microplastics, deforestation impacts, product durability and promotion of long-term use"
+| Worker policies and empowerment | 10% | Protection of workers’ rights across the supply chain including monitoring health and safety, child labour, forced labour, freedom of association, collective bargaining, non-discrimination, gender equality, modern slavery, non-excessive hours and the right and capacity to make a complaint | 
+| Low risk production | 10% | Management of labour abuse risk in supply chains and participation in multi-stakeholder initiatives to improve labour conditions |
+| Living wage | 10% | Living wage definition, methodology and implementation across the supply chain | 
+| Knowing suppliers | 10% | Supply chain transparency including publishing supplier lists and tracking subcontractors | 
+| Supplier relationships | 20% | Auditing and assurance practices across the supply chain and public reporting including unannounced visits and off-site worker interviews | 
 
-Energy use and greenhouse gas emissions	
-"Energy use including direct emissions and indirect emissions (purchased electricity, emissions generated from the supply chain beyond own operations), setting science based GHG targets and reducing GHG emissions though emissions reduction activities"
+#### Environment
 
-Chemicals use and disposal	
-"Chemical use and disposal, setting goals to reduce or eliminate chemical use and adopting alternatives such as vegetable based or water based dyes"
+> Rating total weighted at 35%
 
-Water usage and effluent
-"Water usage policies and practices, engagement on water issues, specific targets to improve water stewardship and quality and treatment of waste"
+| parameter | weight | Description | 
+| --- | :---: | :---: |  
+| Resource management and disposal | 10% | Types of materials used, efforts to reduce or eliminate waste in design and manufacturing, types of packaging used, management of microplastics, deforestation impacts, product durability and promotion of long-term use | 
+| Energy use and greenhouse gas emissions | 10% | Energy use including direct emissions and indirect emissions (purchased electricity, emissions generated from the supply chain beyond own operations), setting science based GHG targets and reducing GHG emissions though emissions reduction activities | 
+| Chemicals use and disposal | 10% | "Chemical use and disposal, setting goals to reduce or eliminate chemical use and adopting alternatives such as vegetable based or water based dyes" | 
+|Water usage and effluent | 10% | Water usage policies and practices, engagement on water issues, specific targets to improve water stewardship and quality and treatment of waste | 
 
-3. Animal
-Policy
-"Implementation of policies to ensure animal welfare"
 
-Fur
-"Use of fur, shearling and karakul lamb fur and commitment not to use fur"
 
-Leather
-"Use of leather and if upcycled/recycled"
 
-Wool
-"Use of wool and if sourced from non-mulesed sheep or upcycled/recycled"
-
-Down and feathers 
-"Use of down and feathers and how sourced"
-
-Angora
-"Use of angora and commitment not to use angora"
-
-Exotic animal hairs 
-"Use of exotic animal hair such as pashmina, cashmere, mohair, alpaca,
-llama, vicuña and shahtoosh"
-
-Exotic animal skins
-"Use of exotic animal skin such as crocodile and alligator"
 
 # Design
 
