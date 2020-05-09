@@ -34,8 +34,6 @@
 <br>
 
 
-
-
 ## Project Description
 
 If you’re into fashion but uncomfortable with the fact it can have a high environmental cost, Sustainably Posh might be just what you’re looking for.
@@ -51,8 +49,6 @@ Project Inspiration:
 
 <br>
 <br>
-<br>
-<br>
 
 ## The sustainability rating parameters:
 
@@ -60,24 +56,20 @@ Project Inspiration:
 
 > Rating total weighted at 35%
 
-| Component | State | Description | 
+| parameter | weight | Description | 
 | --- | :---: | :---: |  
-| Lorem ipsum | Stateless | Lorem ipsum dolor sit amet, consecteteur adupiscing elit, sed do eiusmod tempor incididunt ut labore... | 
-
-
-
-
-1. Labour
-Worker policies and empowerment	
-"Protection of workers’ rights across the supply chain including
+| Worker policies and empowerment | 10% | "Protection of workers’ rights across the supply chain including
 monitoring health and safety, child labour, forced labour, freedom of
 association, collective bargaining, non-discrimination, gender equality,
 modern slavery, non-excessive hours and the right and capacity to
-make a complaint"
+make a complaint" | 
 
-Low risk production	
-"Management of labour abuse risk in supply chains and participation in
-multi-stakeholder initiatives to improve labour conditions"
+| Low risk production | 10% | "Management of labour abuse risk in supply chains and participation in
+multi-stakeholder initiatives to improve labour conditions" |
+
+
+	
+
 
 Living wage	
 "Living wage definition, methodology and implementation across the
