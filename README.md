@@ -58,31 +58,17 @@ Project Inspiration:
 
 | parameter | weight | Description | 
 | --- | :---: | :---: |  
-| Worker policies and empowerment | 10% | "Protection of workers’ rights across the supply chain including
-monitoring health and safety, child labour, forced labour, freedom of
-association, collective bargaining, non-discrimination, gender equality,
-modern slavery, non-excessive hours and the right and capacity to
-make a complaint" | 
+| Worker policies and empowerment | 10% | "Protection of workers’ rights across the supply chain including monitoring health and safety, child labour, forced labour, freedom of association, collective bargaining, non-discrimination, gender equality, modern slavery, non-excessive hours and the right and capacity to make a complaint" | 
 | Low risk production | 10% | "Management of labour abuse risk in supply chains and participation in
 multi-stakeholder initiatives to improve labour conditions" |
-| Lorem ipsum | Stateless | Lorem ipsum dolor sit amet, consecteteur adupiscing elit, sed do eiusmod tempor incididunt ut labore... | 
-| Lorem ipsum | Stateless | Lorem ipsum dolor sit amet, consecteteur adupiscing elit, sed do eiusmod tempor incididunt ut labore... | 
-
-
+| Living wage | 10% | "Living wage definition, methodology and implementation across the
+supply chain" | 
+| Knowing suppliers | 10% | "Supply chain transparency including publishing supplier lists and
+tracking subcontractors" | 
+| Supplier relationships | 20% | "Auditing and assurance practices across the supply chain and public
+reporting including unannounced visits and off-site worker interviews" | 
 	
 
-
-Living wage	
-"Living wage definition, methodology and implementation across the
-supply chain"
-
-Knowing suppliers	
-"Supply chain transparency including publishing supplier lists and
-tracking subcontractors"
-
-Supplier relationships	
-"Auditing and assurance practices across the supply chain and public
-reporting including unannounced visits and off-site worker interviews"
 		
 2. Environment	
 Resource management and disposal	
