@@ -1,7 +1,5 @@
-# Barrel-Aged
+# Sustainably Posh
 
-![P3 Challenge](https://imgur.com/P0kiHOf.png)
-<p style="text-align: center;"><em>P3 Challenge</em></p>
 
 ## Table of Contents
 - [Project Description](#project-description)
@@ -35,45 +33,10 @@
 <br>
 <br>
 
-# Overview
 
-![Logo](https://imgur.com/lEgfC75.png)
+
 
 ## Project Description
-Barrel-Aged is a social forum and review website for whiskey lovers. Through a modern and attractive user interface, convenient browsing and review functionality, and a well-designed database of whiskeys, Barrel-Aged will enable whiskey consumers to discuss, rate, and find their next favorite bottle.
-
-#### Project Team
-
-Created, designed, and developed by [Brian Weitz](https://github.com/GuildensternDies), [Misha Kessler](https://github.com/mishakessler), [Naz Babu](https://github.com/n95babu), & [Sean Blanchfield](https://github.com/seanbfield) (Git Czar) for the GA Software Engineering Immersive (May '19 Cohort) Unit 3 Project.
-
-Team values, communication preferences, and other group expectations can be found on the [Barrel-Aged google doc](https://docs.google.com/document/d/12Y6Uepqbnv3tS8xEpuS2KN-N3yHhyMqZA6CAT63p2YY/edit).
-
-#### Project Inspiration
-
-Barrel-Aged is modeled with functional inspiration from [Distiller](https://distiller.com/), [GoodReads](https://www.goodreads.com/), [Connosr](https://www.connosr.com/), and [Untappd](https://untappd.com); design and branding inspiration from [Flaviar](https://flaviar.com) and [Touch of Modern](https://www.touchofmodern.com).
-
-#### Project Permissions
-
-Digital assets used with full licensing and permission from [Death to Stock Photo](https://deathtothestockphoto.com/), [Freepik](https://www.freepik.com/home), and [Unsplash](https://unsplash.com/). Custom digital design and branding by [Misha Kessler](https://www.mishakessler.com).
-
-Digital assets stored locally and on Imgur at [Barrel-Aged Assets Library](https://imgur.com/a/uF7o4YS).
-
-<br>
-<br>
-
-# Design
-
-## ERD Model
-
-![ERD Model V2](https://imgur.com/D7NUsJb.png)
-
-> ERD Model from Sean's [Draw.io](https://www.draw.io).
-
-<br>
-
-
-
-# sustainable-fashion-hub
 
 If you’re into fashion but uncomfortable with the fact it can have a high environmental cost, Sustainably Posh might be just what you’re looking for.
 
@@ -85,6 +48,14 @@ Our products - Brands in our platform must meet a minimum sustainability rating 
 
 Project Inspiration:
 “The fashion industry is one of the most polluting industries in the world that also exploits millions of people, In addition, the clothing industry causes an enormous amount of water wastage, CO2 emissions, and the pollution of soil, rivers and oceans.”
+
+<br>
+<br>
+
+
+
+
+
 
 
 The sustainability rating parameters:
@@ -150,6 +121,16 @@ llama, vicuña and shahtoosh"
 
 Exotic animal skins
 "Use of exotic animal skin such as crocodile and alligator"
+
+# Design
+
+## ERD Model
+
+![ERD Model V2](https://imgur.com/D7NUsJb.png)
+
+> ERD Model from Sean's [Draw.io](https://www.draw.io).
+
+<br>
 
 ## Functional Goals
 
