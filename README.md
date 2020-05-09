@@ -63,9 +63,10 @@ monitoring health and safety, child labour, forced labour, freedom of
 association, collective bargaining, non-discrimination, gender equality,
 modern slavery, non-excessive hours and the right and capacity to
 make a complaint" | 
-
 | Low risk production | 10% | "Management of labour abuse risk in supply chains and participation in
 multi-stakeholder initiatives to improve labour conditions" |
+| Lorem ipsum | Stateless | Lorem ipsum dolor sit amet, consecteteur adupiscing elit, sed do eiusmod tempor incididunt ut labore... | 
+| Lorem ipsum | Stateless | Lorem ipsum dolor sit amet, consecteteur adupiscing elit, sed do eiusmod tempor incididunt ut labore... | 
 
 
 	
