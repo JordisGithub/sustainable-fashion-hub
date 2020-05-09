@@ -51,14 +51,22 @@ Project Inspiration:
 
 <br>
 <br>
+<br>
+<br>
+
+## The sustainability rating parameters:
+
+#### Labor
+
+> Rating total weighted at 35%
+
+| Component | State | Description | 
+| --- | :---: | :---: |  
+| Lorem ipsum | Stateless | Lorem ipsum dolor sit amet, consecteteur adupiscing elit, sed do eiusmod tempor incididunt ut labore... | 
 
 
 
 
-
-
-
-The sustainability rating parameters:
 1. Labour
 Worker policies and empowerment	
 "Protection of workers’ rights across the supply chain including
@@ -270,6 +278,9 @@ client
 
 | Function | Description | 
 | --- | :---: |  
+| Lorem | ipsum dolor sit amet | 
+| Lorem | ipsum dolor sit amet | 
+| Lorem | ipsum dolor sit amet | 
 | Lorem | ipsum dolor sit amet | 
 
 <br>
