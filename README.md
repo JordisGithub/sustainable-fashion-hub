@@ -1,38 +1,7 @@
 # Sustainably Posh
 
-
-## Table of Contents
-- [Project Description](#project-description)
-  - [Project Team](#project-team)
-  - [Project Inspiration](#project-inspiration)
-  - [Project Permissions](#project-permissions)
-- [Design](#design)
-  - [Sitemap](#sitemap)
-  - [Wireframes](#wireframes)
-    - [Desktop](#desktop)
-    - [Mobile](#mobile)
-  - [Branding](#branding)
-- [Development](#development)
-  - [Functional Goals](#functional-goals)
-    - [MVP](#mvp)
-    - [Post-MVP](#post-mvp)
-  - [Functional Heirarchy](#functional-heirarchy)
-    - [Repo Structure](#repo-structure)
-    - [Database Table Structure](#express-database-structure)
-    - [React Structure](#react-structure)
-  - [Functional Components](#functional-components)
-    - [Component Breakdown](#component-breakdown)
-    - [Component Timeframes](#component-timeframes)
-    - [Helper Functions](#helper-functions)
-  - [Supporting Libraries](#supporting-libraries)
-- [Project Review](#project-review)
-  - [Code Showcase](#code-showcase)
-  - [Bugs, Issues, and Resolutions](#issues-&-resolutions)
-- [Project Followup](#project-followup)
-
 <br>
 <br>
-
 
 ## Overview
 
@@ -78,8 +47,6 @@ Project Inspiration:
 | Exotic animal skins | 10% | Use of exotic animal skin such as crocodile and alligator | 
 
 
-
-
 #### Labor
 
 > Rating total weighted at 35%
@@ -111,11 +78,7 @@ Project Inspiration:
 
 ## ERD Model
 
-
 ![ERD Model V2](https://i.imgur.com/guB5av7.png)
-
-
-
 
 <br>
 
@@ -125,7 +88,33 @@ Project Inspiration:
 
 - User Authentication & Password Hashing
 - Sequelize Resource Tables
-  - Users (first_name, username, email, password, location, fav_whiskey)
+  - Users (first_name, username, email, password, auth_level, brand_update_access)
+    - FK: User belongsTo Brand, User hasMany Items
+  - Brand (name)
+    - FK: Brand belongsTo Items, Brand hasMany Items
+  - Item (first_name, username, email, password, auth_level)
+    - FK: User belongsTo Brand, User hasMany Items
+  - Brand Scorecard (sustainability_rating)
+    - FK: Brand Scorecard belongsTo Brand
+    
+- CRUD Functionality on All Resources via Axios
+- Core React Components
+  - Pages
+    - Age Gate
+    - Landing (Hero, Overview, Login, Register)
+    - Homepage (_Index_)(View All Whiskies, Whiskies By Type)
+    - User (_Show_)
+    - Whiskey (_Show_)
+  - Modules
+    - Login Form
+    - Register Form
+   - Users (first_name, username, email, password, auth_level)
+    - FK: User hasMany Reviews, User hasMany Whiskeys
+    
+    
+    - User Authentication & Password Hashing
+- Sequelize Resource Tables
+  - Users (first_name, username, email, password, auth_level)
     - FK: User hasMany Reviews, User hasMany Whiskeys
   - Whiskeys (name, brand, type, description, url_to_image)
     - FK: Whiskey hasMany Reviews
