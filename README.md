@@ -1,6 +1,6 @@
 # Sustainably Posh
 <br>
-## Overview
+
 If you’re into fashion but uncomfortable with the fact it can have a high environmental cost, Sustainably Posh might be just what you’re looking for.
 
 Sustainably Posh was founded to make finding sustainable luxury clothing easier. Sustainably posh operates as a marketplace for mid to high market sustainable brands. I have scoured eco-conscious fashion brands to find the best of the bunch.
