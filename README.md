@@ -39,7 +39,6 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 | Exotic animal skins | 10% | Use of exotic animal skin such as crocodile and alligator | 
 
 </details>
-<br>
 
 
 <details><summary>LABOR</summary>
@@ -55,7 +54,6 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 | Supplier relationships | 20% | Auditing and assurance practices across the supply chain and public reporting including unannounced visits and off-site worker interviews | 
 
 </details>
-<br>
 
 <details><summary>ENVIRONMENT</summary>
 <br>
