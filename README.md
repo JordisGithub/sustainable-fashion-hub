@@ -222,4 +222,5 @@ client
 <br>
 ### API endpoint documentation
 ### Post-MVP
+
 ![ERD Model V2](https://i.imgur.com/l0jhRRM.png)
