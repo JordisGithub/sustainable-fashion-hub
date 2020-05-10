@@ -11,8 +11,11 @@
 
 ## Score Methodology Data collection and evaluation 
 - Good on You - Brand ratings
-- United Nations - Fashion Industry Charter for Climate Action
-- business-humanrights.org - The 2019 Ethical Fashion Report
+- Certifications, accreditations and other standards systems
+- Independent third party reports and ratings
+- Brand and parent company websites
+
+<p>The rating system does not consider any information that is not in the public domain.</p>
 
 
 <br>
