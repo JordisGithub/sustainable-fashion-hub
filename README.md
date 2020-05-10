@@ -27,18 +27,18 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 
 <details><summary>ANIMAL</summary>
 <br>
-> Rating total weighted at 35%
+> Rating total weighted at 30%
 
 | parameter | weight | Description | 
 | --- | :---: | :---: |  
-| Policy | 10% | Implementation of policies to ensure animal welfare |
-| Fur | 10% | Use of fur, shearling and karakul lamb fur and commitment not to use fur | 
-| Leather | 10% | Use of leather and if upcycled/recycled | 
+| Policy | 15% | Implementation of policies to ensure animal welfare |
+| Fur | 15% | Use of fur, shearling and karakul lamb fur and commitment not to use fur | 
+| Leather | 12% | Use of leather and if upcycled/recycled | 
 | Wool | 10% | Use of wool and if sourced from non-mulesed sheep or upcycled/recycled | 
-| Down and feathers  | 10% | Use of down and feathers and how sourced | 
+| Down and feathers  | 12% | Use of down and feathers and how sourced | 
 | Angora | 10% | Use of angora and commitment not to use angora | 
 | Exotic animal hairs  | 10% | Use of exotic animal hair such as pashmina, cashmere, mohair, alpaca, llama, vicuña and shahtoosh | 
-| Exotic animal skins | 10% | Use of exotic animal skin such as crocodile and alligator | 
+| Exotic animal skins | 11% | Use of exotic animal skin such as crocodile and alligator | 
 
 </details>
 
@@ -49,10 +49,10 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 
 | parameter | weight | Description | 
 | --- | :---: | :---: |  
-| Worker policies and empowerment | 10% | Protection of workers’ rights across the supply chain including monitoring health and safety, child labour, forced labour, freedom of association, collective bargaining, non-discrimination, gender equality, modern slavery, non-excessive hours and the right and capacity to make a complaint | 
-| Low risk production | 10% | Management of labour abuse risk in supply chains and participation in multi-stakeholder initiatives to improve labour conditions |
-| Living wage | 10% | Living wage definition, methodology and implementation across the supply chain | 
-| Knowing suppliers | 10% | Supply chain transparency including publishing supplier lists and tracking subcontractors | 
+| Worker policies and empowerment | 20% | Protection of workers’ rights across the supply chain including monitoring health and safety, child labour, forced labour, freedom of association, collective bargaining, non-discrimination, gender equality, modern slavery, non-excessive hours and the right and capacity to make a complaint | 
+| Low risk production | 15% | Management of labour abuse risk in supply chains and participation in multi-stakeholder initiatives to improve labour conditions |
+| Living wage | 25% | Living wage definition, methodology and implementation across the supply chain | 
+| Knowing suppliers | 20% | Supply chain transparency including publishing supplier lists and tracking subcontractors | 
 | Supplier relationships | 20% | Auditing and assurance practices across the supply chain and public reporting including unannounced visits and off-site worker interviews | 
 
 </details>
@@ -63,16 +63,15 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 
 | parameter | weight | Description | 
 | --- | :---: | :---: |  
-| Resource management and disposal | 10% | Types of materials used, efforts to reduce or eliminate waste in design and manufacturing, types of packaging used, management of microplastics, deforestation impacts, product durability and promotion of long-term use | 
-| Energy use and greenhouse gas emissions | 10% | Energy use including direct emissions and indirect emissions (purchased electricity, emissions generated from the supply chain beyond own operations), setting science based GHG targets and reducing GHG emissions though emissions reduction activities | 
-| Chemicals use and disposal | 10% | "Chemical use and disposal, setting goals to reduce or eliminate chemical use and adopting alternatives such as vegetable based or water based dyes" | 
-|Water usage and effluent | 10% | Water usage policies and practices, engagement on water issues, specific targets to improve water stewardship and quality and treatment of waste | 
+| Resource management and disposal | 30% | Types of materials used, efforts to reduce or eliminate waste in design and manufacturing, types of packaging used, management of microplastics, deforestation impacts, product durability and promotion of long-term use | 
+| Energy use and greenhouse gas emissions | 22% | Energy use including direct emissions and indirect emissions (purchased electricity, emissions generated from the supply chain beyond own operations), setting science based GHG targets and reducing GHG emissions though emissions reduction activities | 
+| Chemicals use and disposal | 23% | "Chemical use and disposal, setting goals to reduce or eliminate chemical use and adopting alternatives such as vegetable based or water based dyes" | 
+|Water usage and effluent | 25% | Water usage policies and practices, engagement on water issues, specific targets to improve water stewardship and quality and treatment of waste | 
 
 </details>
 <br>
 
 # Design - MVP
-### Wire-frames
 
 ### ERD Model
 
@@ -85,7 +84,7 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 
 - User Authentication & Password Hashing
 - Sequelize Resource Tables
-  - Users (first_name, username, email, password, auth_level, brand_update_access)
+  - Users (first_name, username, email, password, auth_level, Brand_Item_update_access)
     - FK: User belongsTo Brand, User hasMany Items
   - Brand (name)
     - FK: Brand belongsTo Items, Brand hasMany Items
@@ -94,18 +93,17 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
   - Brand Scorecard (sustainability_rating)
     - FK: Brand Scorecard belongsTo Brand
     
-- CRUD Functionality on All Resources via Axios
+- CRUD Functionality for each brand to edit their individual product items once onboarded onto the platform
+
 - Core React Components
   - Pages
-    - Landing (Hero, Overview, Login, Register)
     - Homepage (_Index_)(View All brands and looks)
-    - User (_Show_)
     - Brand (_Show_)
-  - Modules
+    - Items (_Show_)
     - Login Form
     - Register Form
     
-    
+  <br>  
 
 #### Components
 | Component          | State     | Description                                                 | 
@@ -120,6 +118,7 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 | Our ratings        | Stateless | Lorem ipsum dolor sit amet, consectetecididunt ut labore... | 
 | About Us           | Stateless | Lorem ipsum dolor sit amet, consectetecididunt ut labore... | 
 
+  <br>  
 
 ### Dependencies
 > Supporting Libraries.
@@ -143,6 +142,9 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
   * react-router-dom
   * react-star-rating
 <br>
+
+
+### Wire-frames
 <br>
 <br>
 
