@@ -213,8 +213,8 @@ client
 
 <br>
 <br>
-
-### API endpoint documentation
+<br>
+<br>
 
 ### Post-MVP
 
