@@ -106,15 +106,17 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
     
 
 #### Components
-| Component | State | Description | 
-| --- | :---: | :---: |  
-| Lorem ipsum | Stateless | Lorem ipsum dolor sit amet, consecteteur adupiscing elit, sed do eiusmod tempor incididunt ut labore... | 
-
-#### Component Timeframes
-
-| Component | Priority | Estimated Time | Actual Time |
-| --- | :---: |  :---: | :---: |
-| Lorem ipsum | High | x hrs | y hrs |
+| Component          | State     | Description                                                 | 
+| ------------------ | :---:     | :---:                                                       |  
+| Header             | State     | Lorem ipsum dolor sit amet, consectetecididunt ut labore... | 
+| Footer             | Stateless | Lorem ipsum dolor sit amet, consectetecididunt ut labore... | 
+| Hero               | Stateless | Lorem ipsum dolor sit amet, consectetecididunt ut labore... | 
+| Virtual Style Help | Stateless | Lorem ipsum dolor sit amet, consectetecididunt ut labore... | 
+| Designers          | State     | Lorem ipsum dolor sit amet, consectetecididunt ut labore... | 
+| Shop All           | State     | Lorem ipsum dolor sit amet, consectetecididunt ut labore... | 
+| Individual Item    | State     | Lorem ipsum dolor sit amet, consectetecididunt ut labore... | 
+| Our ratings        | Stateless | Lorem ipsum dolor sit amet, consectetecididunt ut labore... | 
+| About Us           | Stateless | Lorem ipsum dolor sit amet, consectetecididunt ut labore... | 
 
 
 ### Dependencies
