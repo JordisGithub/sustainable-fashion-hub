@@ -10,11 +10,10 @@
 <br>
 
 ## Score Methodology Data collection and evaluation 
+- Good on You - Brand ratings
 - United Nations - Fashion Industry Charter for Climate Action
 - business-humanrights.org - The 2019 Ethical Fashion Report
-- Good on You - Brand ratings
-- McKinsey: The State of Fashion 2020: Navigating uncertainty
-- McKinsey: Fashion’s new musthave: sustainable sourcing at scale
+
 
 <br>
 
