@@ -37,7 +37,7 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 | Wool | 10% | Use of wool and if sourced from non-mulesed sheep or upcycled/recycled | 
 | Down and feathers  | 12% | Use of down and feathers and how sourced | 
 | Angora | 10% | Use of angora and commitment not to use angora | 
-| Exotic animal hairs  | 10% | Use of exotic animal hair such as pashmina, cashmere, mohair, alpaca, llama, vicuña and shahtoosh | 
+| Exotic animal hairs &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 10% | Use of exotic animal hair such as pashmina, cashmere, mohair, alpaca, llama, vicuña and shahtoosh | 
 | Exotic animal skins | 11% | Use of exotic animal skin such as crocodile and alligator | 
 
 </details>
@@ -49,7 +49,7 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 
 | parameter | weight | Description | 
 | --- | :---: | :---: |  
-| Worker policies and empowerment | 20% | Protection of workers’ rights across the supply chain including monitoring health and safety, child labour, forced labour, freedom of association, collective bargaining, non-discrimination, gender equality, modern slavery, non-excessive hours and the right and capacity to make a complaint | 
+|<p> Worker policies and empowerment</p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 20% | Protection of workers’ rights across the supply chain including monitoring health and safety, child labour, forced labour, freedom of association, collective bargaining, non-discrimination, gender equality, modern slavery, non-excessive hours and the right and capacity to make a complaint | 
 | Low risk production | 15% | Management of labour abuse risk in supply chains and participation in multi-stakeholder initiatives to improve labour conditions |
 | Living wage | 25% | Living wage definition, methodology and implementation across the supply chain | 
 | Knowing suppliers | 20% | Supply chain transparency including publishing supplier lists and tracking subcontractors | 
@@ -63,7 +63,7 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 
 | parameter | weight | Description | 
 | --- | :---: | :---: |  
-| Resource management and disposal | 30% | Types of materials used, efforts to reduce or eliminate waste in design and manufacturing, types of packaging used, management of microplastics, deforestation impacts, product durability and promotion of long-term use | 
+| Resource management and disposal &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 30% | Types of materials used, efforts to reduce or eliminate waste in design and manufacturing, types of packaging used, management of microplastics, deforestation impacts, product durability and promotion of long-term use | 
 | Energy use and greenhouse gas emissions | 22% | Energy use including direct emissions and indirect emissions (purchased electricity, emissions generated from the supply chain beyond own operations), setting science based GHG targets and reducing GHG emissions though emissions reduction activities | 
 | Chemicals use and disposal | 23% | "Chemical use and disposal, setting goals to reduce or eliminate chemical use and adopting alternatives such as vegetable based or water based dyes" | 
 |Water usage and effluent | 25% | Water usage policies and practices, engagement on water issues, specific targets to improve water stewardship and quality and treatment of waste | 
