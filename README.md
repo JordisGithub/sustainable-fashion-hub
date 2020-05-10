@@ -73,18 +73,17 @@ Project Inspiration:
 
 
 
+# Design - MVP
+### Wire-frames
 
-# Design
-
-## ERD Model
+### ERD Model
 
 ![ERD Model V2](https://i.imgur.com/guB5av7.png)
 
 <br>
 
-## Functional Goals
 
-### MVP
+### Data architecture
 
 - User Authentication & Password Hashing
 - Sequelize Resource Tables
@@ -100,51 +99,51 @@ Project Inspiration:
 - CRUD Functionality on All Resources via Axios
 - Core React Components
   - Pages
-    - Age Gate
     - Landing (Hero, Overview, Login, Register)
-    - Homepage (_Index_)(View All Whiskies, Whiskies By Type)
+    - Homepage (_Index_)(View All brands and looks)
     - User (_Show_)
-    - Whiskey (_Show_)
+    - Brand (_Show_)
   - Modules
     - Login Form
     - Register Form
-   - Users (first_name, username, email, password, auth_level)
-    - FK: User hasMany Reviews, User hasMany Whiskeys
     
     
-    - User Authentication & Password Hashing
-- Sequelize Resource Tables
-  - Users (first_name, username, email, password, auth_level)
-    - FK: User hasMany Reviews, User hasMany Whiskeys
-  - Whiskeys (name, brand, type, description, url_to_image)
-    - FK: Whiskey hasMany Reviews
-  - Reviews (rating, comment)
-    - FK: Review belongsTo Users, Review belongsTo Whiskeys
-- CRUD Functionality on All Resources via Axios
-- Core React Components
-  - Pages
-    - Age Gate
-    - Landing (Hero, Overview, Login, Register)
-    - Homepage (_Index_)(View All Whiskies, Whiskies By Type)
-    - User (_Show_)
-    - Whiskey (_Show_)
-  - Modules
-    - Login Form
-    - Register Form
+
+#### Components
+| Component | State | Description | 
+| --- | :---: | :---: |  
+| Lorem ipsum | Stateless | Lorem ipsum dolor sit amet, consecteteur adupiscing elit, sed do eiusmod tempor incididunt ut labore... | 
+
+#### Component Timeframes
+
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: |
+| Lorem ipsum | High | x hrs | y hrs |
 
 
-### Post-MVP
+### Dependencies
+> Supporting Libraries.
 
-- Pagination on Whiskeys, Advanced Sorting & Filtering
-- Additional "Favorite" functionality, db table, and corresponding components for viewing and reordering favorite whiskeys from user dashboard.
-- "Like" functionality on reviews, plus sorting reviews by popularity.
-- Third party whiskey API to build out our database, enable "Add new whiskey for review." by user, with autofill.
+* Server-Side
+  * body-parser
+  * cors
+  * express
+  * morgan
+  * nodemon
+  * pg
+  * sequelize
 
+* Authentication
+  * bcrypt
+  * jsonwebtoken
+
+* Client-Side
+  * axios
+  * react
+  * react-router-dom
+  * react-star-rating
 <br>
 
-## Functional Heirarchy
-
-> Files and directories that are key to our production (and thus, have been- or will be- edited) are listed here in tree form here. Subdirectories should appear first, followed by filenames.
 
 #### Repo Structure
 
@@ -220,98 +219,6 @@ client
 
 
 <br>
-
-## Functional Components
-
-#### Component Breakdown
-
-> Components (and a description with a stateful or stateless tag) go here.
-
-| Component | State | Description | 
-| --- | :---: | :---: |  
-| Lorem ipsum | Stateless | Lorem ipsum dolor sit amet, consecteteur adupiscing elit, sed do eiusmod tempor incididunt ut labore... | 
-
-#### Component Timeframes
-
-> Time expectation (padded with an extra hour, minimum, to play it safe) go here.
-
-| Component | Priority | Estimated Time | Actual Time |
-| --- | :---: |  :---: | :---: |
-| Lorem ipsum | High | x hrs | y hrs |
-
-
-#### Helper Functions
-
-> Generic helper functions go here.
-
-| Function | Description | 
-| --- | :---: |  
-| Lorem | ipsum dolor sit amet | 
-| Lorem | ipsum dolor sit amet | 
-| Lorem | ipsum dolor sit amet | 
-| Lorem | ipsum dolor sit amet | 
-
 <br>
-
-## Supporting Libraries
-
-> Packages installed via node go here.
-
-* Server-Side
-  * body-parser
-  * cors
-  * express
-  * morgan
-  * nodemon
-  * pg
-  * sequelize
-
-* Authentication
-  * bcrypt
-  * jsonwebtoken
-
-* Client-Side
-  * axios
-  * material-ui
-  * react
-  * react-router-dom
-  * react-spring
-  * react-with-gesture
-  * react-star-rating
-
-<br>
-<br>
-
-# Project Review
-
-## Code Showcase
-
-> Any code of which we are proud go here.
-
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
-
-<br>
-
-## Issues & Resolutions
-
-> Any code bugs, errors, and fixes go here.
-
-```
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier
-```
-
-```                
-**RESOLUTION**: Missing comma after first object in sources {} object
-```
-
-
-<br>
-<br>
-
-# Project Followup
-
-> Any tasks we would like to revisit after graduation go here. update
+### API endpoint documentation
+### Post-MVP
