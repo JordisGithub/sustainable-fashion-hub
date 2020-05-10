@@ -1,10 +1,10 @@
 # Sustainably Posh
 <br>
-If you’re into fashion but uncomfortable with the fact it can have a high environmental cost, Sustainably Posh might be just what you’re looking for.
+<p>If you’re into fashion but uncomfortable with the fact it can have a high environmental cost, Sustainably Posh might be just what you’re looking for.<p/>
 
-Sustainably Posh was founded to make finding sustainable luxury clothing easier. Sustainably posh operates as a marketplace for mid to high market sustainable brands. I have scoured eco-conscious fashion brands to find the best of the bunch.
+<p>Sustainably Posh was founded to make finding sustainable luxury clothing easier. Sustainably posh operates as a marketplace for mid to high market sustainable brands. I have scoured eco-conscious fashion brands to find the best of the bunch.</p>
 
-I also used the data to develop a sustainability score rating model to rate the brands and provide full transparency around the sustainability impact and rating factors of your favorite outfit and designers. You can filter clothes to be vegan, fair trade, locally produced (in USA) and “made for a good cause”. Think of it as the ultimate Plattform of sustainable shopping with sustainability scorecards and might I add very POSH look ideas!
+<p>I also used the data to develop a sustainability score rating model to rate the brands and provide full transparency around the sustainability impact and rating factors of your favorite outfit and designers. You can filter clothes to be vegan, fair trade, locally produced (in USA) and “made for a good cause”. Think of it as the ultimate Plattform of sustainable shopping with sustainability scorecards and might I add very POSH look ideas!</p>
 <br>
 
 ## Score Methodology Data collection and evaluation 
@@ -18,7 +18,7 @@ I also used the data to develop a sustainability score rating model to rate the 
 
 ## The sustainability rating parameters:
 
-Our products - Brands in our platform must meet a minimum sustainability rating of 3.  All of the products listed are owned by a third party. The brands encompass both established brands seeking exposure in the sustainable community OR independant designers and multi-brand boutiques who outsource to Sustainably Posh Fashion their online operations.
+Brands in our platform must meet a minimum sustainability rating of 3.  All of the products listed are owned by a third party. The brands encompass both established brands seeking exposure in the sustainable community OR independant designers and multi-brand boutiques who outsource to Sustainably Posh Fashion their online operations.
 
 
 <details><summary>ANIMAL</summary>
