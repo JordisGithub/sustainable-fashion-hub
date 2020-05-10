@@ -1,3 +1,5 @@
+![banner](https://i.imgur.com/0ywUH1K.png)
+
 # Sustainably Posh
 <br>
 <p>If you’re into fashion but uncomfortable with the fact it can have a high environmental cost, Sustainably Posh might be just what you’re looking for.<p/>
