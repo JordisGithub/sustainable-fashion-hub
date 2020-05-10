@@ -24,8 +24,9 @@ Project Inspiration:
 
 ## The sustainability rating parameters:
 
-#### Animal
 
+<details><summary>ANIMAL</summary>
+<br>
 > Rating total weighted at 35%
 
 | parameter | weight | Description | 
@@ -39,9 +40,12 @@ Project Inspiration:
 | Exotic animal hairs  | 10% | Use of exotic animal hair such as pashmina, cashmere, mohair, alpaca, llama, vicuña and shahtoosh | 
 | Exotic animal skins | 10% | Use of exotic animal skin such as crocodile and alligator | 
 
+</details>
+<br>
 
-#### Labor
 
+<details><summary>LABOR</summary>
+<br>
 > Rating total weighted at 35%
 
 | parameter | weight | Description | 
@@ -52,8 +56,11 @@ Project Inspiration:
 | Knowing suppliers | 10% | Supply chain transparency including publishing supplier lists and tracking subcontractors | 
 | Supplier relationships | 20% | Auditing and assurance practices across the supply chain and public reporting including unannounced visits and off-site worker interviews | 
 
-#### Environment
+</details>
+<br>
 
+<details><summary>ENVIRONMENT</summary>
+<br>
 > Rating total weighted at 35%
 
 | parameter | weight | Description | 
@@ -63,8 +70,8 @@ Project Inspiration:
 | Chemicals use and disposal | 10% | "Chemical use and disposal, setting goals to reduce or eliminate chemical use and adopting alternatives such as vegetable based or water based dyes" | 
 |Water usage and effluent | 10% | Water usage policies and practices, engagement on water issues, specific targets to improve water stewardship and quality and treatment of waste | 
 
-
-
+</details>
+<br>
 
 # Design - MVP
 ### Wire-frames
