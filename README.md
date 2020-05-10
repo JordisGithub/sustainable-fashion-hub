@@ -1,10 +1,6 @@
 # Sustainably Posh
-
 <br>
-<br>
-
 ## Overview
-
 If you’re into fashion but uncomfortable with the fact it can have a high environmental cost, Sustainably Posh might be just what you’re looking for.
 
 Sustainably Posh was founded to make finding sustainable luxury clothing easier. Sustainably posh operates as a marketplace for mid to high market sustainable brands. I have scoured eco-conscious fashion brands to find the best of the bunch.
@@ -15,8 +11,6 @@ Our products - Brands in our platform must meet a minimum sustainability rating 
 
 Project Inspiration:
 “The fashion industry is one of the most polluting industries in the world that also exploits millions of people, In addition, the clothing industry causes an enormous amount of water wastage, CO2 emissions, and the pollution of soil, rivers and oceans.”
-
-<br>
 <br>
 
 ## Score Methodology Data collection and evaluation 
@@ -26,7 +20,6 @@ Project Inspiration:
 - McKinsey: The State of Fashion 2020: Navigating uncertainty
 - McKinsey: Fashion’s new musthave: sustainable sourcing at scale
 
-<br>
 <br>
 
 ## The sustainability rating parameters:
@@ -220,7 +213,9 @@ client
 
 <br>
 <br>
+
 ### API endpoint documentation
+
 ### Post-MVP
 
 ![ERD Model V2](https://i.imgur.com/l0jhRRM.png)
