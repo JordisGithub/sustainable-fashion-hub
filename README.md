@@ -78,7 +78,7 @@ Project Inspiration:
 
 ### ERD Model
 
-![ERD Model V2](https://i.imgur.com/guB5av7.png)
+![ERD Model V1](https://i.imgur.com/guB5av7.png)
 
 <br>
 
@@ -222,3 +222,4 @@ client
 <br>
 ### API endpoint documentation
 ### Post-MVP
+![ERD Model V2](https://i.imgur.com/l0jhRRM.png)
