@@ -34,7 +34,7 @@
 <br>
 
 
-## Project Description
+## Overview
 
 If you’re into fashion but uncomfortable with the fact it can have a high environmental cost, Sustainably Posh might be just what you’re looking for.
 
@@ -46,6 +46,16 @@ Our products - Brands in our platform must meet a minimum sustainability rating 
 
 Project Inspiration:
 “The fashion industry is one of the most polluting industries in the world that also exploits millions of people, In addition, the clothing industry causes an enormous amount of water wastage, CO2 emissions, and the pollution of soil, rivers and oceans.”
+
+<br>
+<br>
+
+## Score Methodology Data collection and evaluation 
+- United Nations - Fashion Industry Charter for Climate Action
+- business-humanrights.org - The 2019 Ethical Fashion Report
+- Good on You - Brand ratings
+- McKinsey: The State of Fashion 2020: Navigating uncertainty
+- McKinsey: Fashion’s new musthave: sustainable sourcing at scale
 
 <br>
 <br>
