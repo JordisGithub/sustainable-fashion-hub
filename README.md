@@ -111,9 +111,11 @@ Project Inspiration:
 
 ## ERD Model
 
-![ERD Model V2](https://imgur.com/D7NUsJb.png)
 
-> ERD Model from Sean's [Draw.io](https://www.draw.io).
+![ERD Model V2](https://i.imgur.com/guB5av7.png)
+
+
+
 
 <br>
 
