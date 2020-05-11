@@ -171,12 +171,6 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 <br>
 
 
-
-
-#### Designers individual page
-![banner](https://i.imgur.com/5I1Cucf.png)
-
-
 ## Functional Heirarchy
 
 > Files and directories that are key to our production (and thus, have been- or will be- edited) are listed here in tree form here. Subdirectories should appear first, followed by filenames.
