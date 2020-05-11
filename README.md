@@ -152,6 +152,8 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 <br>
 ![banner](https://i.imgur.com/dGgCjlk.png)
 <br>
+![banner](https://i.imgur.com/Nc5ydha.png)
+
 
 ### Post-MVP
 
