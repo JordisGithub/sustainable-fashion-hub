@@ -171,6 +171,86 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 #### Designers individual page
 ![banner](https://i.imgur.com/5I1Cucf.png)
 
+
+## Functional Heirarchy
+
+> Files and directories that are key to our production (and thus, have been- or will be- edited) are listed here in tree form here. Subdirectories should appear first, followed by filenames.
+
+#### Repo Structure
+
+```
+Sustainably Posh
+
+|___ client
+      (Refer to React Structure below.)
+      
+|___ routes
+      |___ productRouter.js
+      |___ brandsRouter.js
+
+|___ auth.js
+|___ models.js
+|___ resetDb.js
+|___ scratch.js
+|___ seed.js
+|___ server.js
+
+|___ readme.md
+```
+
+#### Express Database Structure
+
+```
+fashion_db
+
+|___ brands
+|___ ratings
+|___ items
+```
+
+#### React Structure
+
+```
+client
+
+|___ public
+      |___ favicon.ico
+      |___ index.html
+
+|___ src
+      |___ assets
+            |___ images
+            |___ graphics
+            
+      |___ components
+            |___ Header.jsx
+            |___ LoginForm.jsx
+            |___ RegisterForm.jsx
+            |___ Brand.jsx
+            |___ item.jsx
+            |___ Brand.jsx
+            |___ looks.jsx
+            |___ Footer.jsx
+
+      |___ pages
+            |___ Home.jsx
+            |___ All products.jsx
+            |___ All brands.jsx
+            |___ ind brands.jsx
+
+      |___ services
+            |___ api-helper.js
+
+      |___ App.css
+      |___ App.js
+      |___ index.css
+      |___ index.js
+      |___ logo.svg
+
+|___ readme.md
+```
+
+
 ### Post-MVP
 
 ![ERD Model V2](https://i.imgur.com/l0jhRRM.png)
