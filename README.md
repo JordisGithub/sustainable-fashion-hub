@@ -150,7 +150,7 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 ### Wire-frames
 ![banner](https://i.imgur.com/kY9n97B.png)
 <br>
-![banner](https://i.imgur.com/lil4chq.png)
+![banner](https://i.imgur.com/dGgCjlk.png)
 <br>
 
 ### Post-MVP
