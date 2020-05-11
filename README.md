@@ -129,8 +129,7 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 * Server-Side
   * body-parser
   * cors
-  * express
-  * morgan
+  * rails
   * nodemon
   * pg
   * sequelize
