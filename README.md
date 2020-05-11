@@ -1,6 +1,8 @@
 ![banner](https://i.imgur.com/0ywUH1K.png)
 
 
+
+
 # Sustainably Posh
 <br>
 <p>If you’re into fashion but uncomfortable with the fact it can have a high environmental cost, Sustainably Posh might be just what you’re looking for.<p/>
@@ -147,6 +149,8 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 
 ### Wire-frames
 ![banner](https://i.imgur.com/kY9n97B.png)
+<br>
+![banner](https://i.imgur.com/lil4chq.png)
 <br>
 
 ### Post-MVP
