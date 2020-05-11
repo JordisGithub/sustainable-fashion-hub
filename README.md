@@ -149,25 +149,30 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 
 ### Wire-frames
 #### Home
-![banner](https://i.imgur.com/xdXDlU1.png)
+![banner](https://i.imgur.com/68puWEe.png)
 <br>
 <br>
 #### Individual Item
-![banner](https://i.imgur.com/9o4WJmz.png)
+![banner](https://i.imgur.com/tHpycb6.png)
 <br>
 <br>
-#### All Products
-![banner](https://i.imgur.com/Nc5ydha.png)
+#### Brand with Items
+![banner](https://i.imgur.com/welqZ2w.png)
 <br>
 <br>
 #### Sign In/ Sign-Up
-![banner](https://i.imgur.com/SH54zea.png)
+![banner](https://i.imgur.com/Y5JAsUI.png)
+<br>
+![banner](https://i.imgur.com/KdfRxgj.png)
+<br>
+#### Add new item
+![banner](https://i.imgur.com/iA8ShbP.png)
 <br>
 <br>
-#### Brands Page
-![banner](https://i.imgur.com/YBkp0xH.png)
-<br>
-<br>
+
+
+
+
 #### Designers individual page
 ![banner](https://i.imgur.com/5I1Cucf.png)
 
@@ -254,3 +259,27 @@ client
 ### Post-MVP
 
 ![ERD Model V2](https://i.imgur.com/l0jhRRM.png)
+
+#### Home
+![banner](https://i.imgur.com/xdXDlU1.png)
+<br>
+<br>
+#### Individual Item
+![banner](https://i.imgur.com/9o4WJmz.png)
+<br>
+<br>
+#### All Products
+![banner](https://i.imgur.com/Nc5ydha.png)
+<br>
+<br>
+#### Sign In/ Sign-Up
+![banner](https://i.imgur.com/SH54zea.png)
+<br>
+<br>
+#### Brands Page
+![banner](https://i.imgur.com/YBkp0xH.png)
+<br>
+<br>
+#### Designers individual page
+![banner](https://i.imgur.com/5I1Cucf.png)
+
