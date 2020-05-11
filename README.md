@@ -151,12 +151,19 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 #### Home
 ![banner](https://i.imgur.com/xdXDlU1.png)
 <br>
+<br>
 #### Individual Item
 ![banner](https://i.imgur.com/9o4WJmz.png)
 <br>
+<br>
 #### All Products
 ![banner](https://i.imgur.com/Nc5ydha.png)
-
+<br>
+<br>
+#### Sign In/ Sign-Up
+![banner](https://i.imgur.com/SH54zea.png)
+<br>
+<br>
 
 ### Post-MVP
 
