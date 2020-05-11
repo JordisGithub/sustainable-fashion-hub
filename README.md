@@ -165,7 +165,7 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 <br>
 <br>
 #### Brands Page
-https://i.imgur.com/YBkp0xH.png
+![banner](https://i.imgur.com/YBkp0xH.png)
 <br>
 <br>
 
