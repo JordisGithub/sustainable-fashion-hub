@@ -148,10 +148,13 @@ Brands in our platform must meet a minimum sustainability rating of 3.  All of t
 
 
 ### Wire-frames
+#### Home
 ![banner](https://i.imgur.com/xdXDlU1.png)
 <br>
-![banner](https://i.imgur.com/dGgCjlk.png)
+#### Individual Item
+![banner](https://i.imgur.com/9o4WJmz.png)
 <br>
+#### All Products
 ![banner](https://i.imgur.com/Nc5ydha.png)
 
 
