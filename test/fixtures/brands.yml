@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  sustainability_rating: 1
+  sustainability_rating_description: MyString
+  planet_rating: 1
+  planet_rating_details: MyString
+  people_rating: 1
+  people_rating_details: MyString
+  animals_rating: 1
+  animals_rating_details: MyString
+
+two:
+  name: MyString
+  description: MyString
+  sustainability_rating: 1
+  sustainability_rating_description: MyString
+  planet_rating: 1
+  planet_rating_details: MyString
+  people_rating: 1
+  people_rating_details: MyString
+  animals_rating: 1
+  animals_rating_details: MyString

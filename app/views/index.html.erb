@@ -1,0 +1,46 @@
+<%= flash[:notice] %>
+<div>
+  <h4>Iport data!</h4>
+<%= form_tag import_users_path, multipart: true do %>
+  <%= file_field_tag :file %>
+  <%= submit_tag "Import from file" %>
+<% end %>
+</div>
+
+<table>
+  <thead>
+  <tr>
+    <th>name</th>
+    <th>description</th>
+    <th>sustainability_rating</th>
+    <th>sustainability_rating_description</th>
+    <th>planet_rating</th>
+    <th>planet_rating_details</th>
+    <th>people_rating</th>
+    <th>people_rating_details</th>
+    <th>animals_rating</th>
+    <th>animals_rating_details</th>
+  </tr>
+  </thead>
+  
+  <tbody>
+  <% @brands.each do |user| %>
+    <tr>
+    <th><%= brand.name %></th>
+    <th><%= brand.description %></th>
+    <th><%= brand.sustainability_rating %></th>
+    <th><%= brand.sustainability_rating_description %></th>
+    <th><%= brand.planet_rating %></th>
+    <th><%= brand.planet_rating_details %></th>
+    <th><%= brand.people_rating %></th>
+    <th><%= brand.people_rating_details %></th>
+    <th><%= brand.animals_rating %></th>
+    <th><%= brand.animals_rating_details %></th>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+
+
+
+
