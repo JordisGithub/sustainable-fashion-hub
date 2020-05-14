@@ -1,5 +1,6 @@
 class BrandsController < ApplicationController
   before_action :set_brand, only: [:show, :update, :destroy]
+  before_action :authorize_request, only: [:create, :update, :destroy]
 
   # GET /brands
   def index
@@ -10,11 +11,12 @@ class BrandsController < ApplicationController
   
   def import
     Brand.my_import(params[:file])
-    redirect_to root_url, notice: "successfuly Imported Data!!!"
+    redirect_to root_url, notice: "successfuly Imported All Items!!!"
   end
 
   # GET /brands/1
   def show
+    # render json: @brand, include :items
     render json: @brand
   end
 
