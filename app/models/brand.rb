@@ -1,7 +1,15 @@
 class Brand < ApplicationRecord
+
+  # has_many :items, dependant: :destroy
+  has_and_belongs_to_many :items
+end
+
+
+# ==============CSV Import=============================
   require 'csv'
   require 'activerecord-import/base'
   require 'activerecord-import/active_record/adapters/postgresql_adapter'
+
 
 def self.my_import(file)
   users = []
@@ -9,9 +17,8 @@ def self.my_import(file)
     brands << Brand.new(row.to_hash)
   end
 Brand.import brands, recursive: true
+# ==========================================================
 
-  has_many :items, dependant: :destroy
-end
 
 end
 

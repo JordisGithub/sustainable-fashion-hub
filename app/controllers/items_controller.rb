@@ -1,4 +1,5 @@
 class ItemsController < ApplicationController
+  before_action :authorize_request, only: [:create, :update, :destroy]
   before_action :set_item, only: [:show, :update, :destroy]
 
   # GET /items

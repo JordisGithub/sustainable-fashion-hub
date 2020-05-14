@@ -1,6 +1,6 @@
 class BrandsController < ApplicationController
-  before_action :set_brand, only: [:show, :update, :destroy]
   before_action :authorize_request, only: [:create, :update, :destroy]
+  before_action :set_brand, only: [:show, :update, :destroy]
 
   # GET /brands
   def index
@@ -16,8 +16,8 @@ class BrandsController < ApplicationController
 
   # GET /brands/1
   def show
-    # render json: @brand, include :items
     render json: @brand
+    # render json: @brand, include: :items
   end
 
   # POST /brands
