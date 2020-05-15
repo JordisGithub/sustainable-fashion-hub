@@ -30,22 +30,22 @@ export const verifyUser = async () => {
   return false;
 };
 
-export const createTeacher = async (data) => {
-  const resp = await api.post("/teachers", { teacher: data });
+export const createBrand = async (data) => {
+  const resp = await api.post("/brands", { brand: data });
   return resp.data;
 };
 
-export const readAllTeachers = async () => {
-  const resp = await api.get("/teachers");
+export const readAllBrands = async () => {
+  const resp = await api.get("/brands");
   return resp.data;
 };
 
-export const updateTeacher = async (id, data) => {
-  const resp = await api.put(`/teachers/${id}`, { teacher: data });
+export const updateBrand = async (id, data) => {
+  const resp = await api.put(`/brands/${id}`, { brand: data });
   return resp.data;
 };
 
-export const destroyTeacher = async (id) => {
-  const resp = await api.delete(`/teachers/${id}`);
+export const destroyBrand = async (id) => {
+  const resp = await api.delete(`/brands/${id}`);
   return resp.data;
 };

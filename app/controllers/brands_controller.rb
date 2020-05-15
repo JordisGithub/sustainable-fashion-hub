@@ -1,6 +1,7 @@
 class BrandsController < ApplicationController
+  before_action :set_brand, only: [:show, :update, :destroy, :add_item]
+                                  
   before_action :authorize_request, only: [:create, :update, :destroy]
-  before_action :set_brand, only: [:show, :update, :destroy]
 
   # GET /brands
   def index
@@ -9,15 +10,15 @@ class BrandsController < ApplicationController
     render json: @brands
   end
   
-  def import
-    Brand.my_import(params[:file])
-    redirect_to root_url, notice: "successfuly Imported All Items!!!"
-  end
+  # def import
+  #   Brand.my_import(params[:file])
+  #   redirect_to root_url, notice: "successfuly Imported All Items!!!"
+  # end
 
   # GET /brands/1
   def show
-    render json: @brand
-    # render json: @brand, include: :items
+    # render json: @brand
+    render json: @brand, include: :items
   end
 
   # POST /brands
@@ -44,6 +45,14 @@ class BrandsController < ApplicationController
   def destroy
     @brand.destroy
   end
+
+  def add_item
+    @item = Item.find(params[:item_id])
+    @brand.items << @item
+    render json: @food, include: :items
+  end
+
+
 
   private
     # Use callbacks to share common setup or constraints between actions.
