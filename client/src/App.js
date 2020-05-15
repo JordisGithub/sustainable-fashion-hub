@@ -2,8 +2,9 @@
 import React, { Component } from 'react'
 import { withRouter } from 'react-router';
 import './App.css'
-
 import Header from './components/Header';
+
+// import ShowBrands from './components/ShowBrands'
 import Main from './components/Main';
 import {
   loginUser,
@@ -11,6 +12,7 @@ import {
   verifyUser,
   removeToken
 } from './services/api-helper';
+
 
 
 class App extends Component {
@@ -54,10 +56,14 @@ class App extends Component {
           handleLogout={this.handleLogout}
           currentUser={this.state.currentUser}
         />
+
         <Main
           handleRegister={this.handleRegister}
           handleLogin={this.handleLogin}
         />
+
+        {/* <ShowBrands /> */}
+
       </div>
     )
   }

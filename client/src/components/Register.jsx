@@ -3,7 +3,10 @@ import React, { Component } from "react";
 export default class Register extends Component {
   state = {
     username: "",
+    brand: "",
+    name: "",
     email: "",
+    phone: "",
     password: "",
   };
 
@@ -15,7 +18,7 @@ export default class Register extends Component {
   };
 
   render() {
-    const { username, email, password } = this.state;
+    const { username, brand, name, email, phone, password } = this.state;
     return (
       <form
         onSubmit={(e) => {
@@ -34,6 +37,27 @@ export default class Register extends Component {
           onChange={this.handleChange}
         />
         <br />
+
+        <label htmlFor="brand">brand:</label>
+        <input
+          id="brand"
+          type="text"
+          name="brand"
+          value={brand}
+          onChange={this.handleChange}
+        />
+        <br />
+
+        <label htmlFor="name">name:</label>
+        <input
+          id="name"
+          type="text"
+          name="name"
+          value={name}
+          onChange={this.handleChange}
+        />
+        <br />
+
         <label htmlFor="email">email:</label>
         <input
           id="email"
@@ -43,6 +67,17 @@ export default class Register extends Component {
           onChange={this.handleChange}
         />
         <br />
+
+        <label htmlFor="phone">phone:</label>
+        <input
+          id="phone"
+          type="text"
+          name="phone"
+          value={phone}
+          onChange={this.handleChange}
+        />
+        <br />
+
         <label htmlFor="password">password:</label>
         <input
           id="password"
