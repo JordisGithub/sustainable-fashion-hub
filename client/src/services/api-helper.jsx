@@ -6,6 +6,10 @@ const api = axios.create({
   baseURL: baseUrl,
 });
 
+// =========================================
+// ================Auth=====================
+// ===========================================
+
 export const loginUser = async (loginData) => {
   const resp = await api.post("/auth/login", { auth: loginData });
   localStorage.setItem("authToken", resp.data.token);
@@ -30,22 +34,53 @@ export const verifyUser = async () => {
   return false;
 };
 
-export const createBrand = async (data) => {
-  const resp = await api.post("/brands", { brand: data });
-  return resp.data;
+export const removeToken = () => {
+  api.defaults.headers.common.authorization = null;
 };
 
-export const readAllBrands = async () => {
+// =========================================
+// ================Brands===================
+// ===========================================
+
+export const getAllBrands = async () => {
   const resp = await api.get("/brands");
   return resp.data;
 };
 
-export const updateBrand = async (id, data) => {
-  const resp = await api.put(`/brands/${id}`, { brand: data });
+export const getOneBrand = async (id) => {
+  const resp = await api.get(`/brands/${id}`);
+  return resp.data;
+};
+
+export const postBrand = async (brandData) => {
+  const resp = await api.post("/brands", brandData);
+  return resp.data;
+};
+
+export const putBrand = async (id, brandData) => {
+  const resp = await api.put(`/brands/${id}`, brandData);
   return resp.data;
 };
 
 export const destroyBrand = async (id) => {
   const resp = await api.delete(`/brands/${id}`);
+  return resp;
+};
+
+// =========================================
+// ================Items===================
+// ===========================================
+
+export const getAllItems = async () => {
+  const resp = await api.get("/items");
+  return resp.data;
+};
+
+// =========================================
+// ================Brand & Items===================
+// ===========================================
+
+export const addItem = async (itemId, brandId) => {
+  const resp = await api.get(`/items/${itemId}/brands/${brandId}`);
   return resp.data;
 };
