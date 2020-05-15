@@ -10,7 +10,8 @@ class User < ApplicationRecord
   def return_data
     {
       id: id,
-      brand: brand
+      brand: brand,
+      name: name,     
       username: username,
       email: email,
       created_at: created_at,

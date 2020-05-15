@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 export default class Login extends Component {
   state = {
     username: "",
-    email: "",
     password: "",
   };
 
@@ -16,7 +15,7 @@ export default class Login extends Component {
   };
 
   render() {
-    const { username, email, password } = this.state;
+    const { username, password } = this.state;
     return (
       <form
         onSubmit={(e) => {

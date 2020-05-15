@@ -5,6 +5,7 @@ export default function Header(props) {
   return (
     <header>
       <h1>Fashion APP</h1>
+
       {props.currentUser ? (
         <>
           <p>{props.currentUser.username}</p>
@@ -13,14 +14,20 @@ export default function Header(props) {
       ) : (
         <Link to="/login">Login/Register</Link>
       )}
+
       <hr />
-      {props.currentUser && (
-        <>
-          <Link to="/brands">See All Brands</Link>
-          <Link to="/items">All Items</Link>
-          <hr />
-        </>
-      )}
+
+      {/* {
+        props.currentUser
+        &&
+        <> */}
+
+      <Link to="/brands">See All Brands</Link>
+      <Link to="/items">See All Clothing</Link>
+
+      {/* <hr />
+      </>
+        } */}
     </header>
   );
 }

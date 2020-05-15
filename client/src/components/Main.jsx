@@ -10,11 +10,11 @@ import {
   putBrand,
   destroyBrand,
 } from "../services/api-helper";
-// import ShowItems from "./ShowItems";
-// import ShowBrands from "./ShowBrands";
-// import CreateBrand from "./CreateBrand";
-// import UpdateBrand from "./UpdateBrand";
-// import BrandItem from "./BrandItem";
+import ShowItems from "../components/ShowItems";
+import ShowBrands from "./ShowBrands";
+import CreateBrand from "./CreateBrand";
+import UpdateBrand from "../components/UpdateBrand";
+import BrandItem from "./BrandItem";
 
 export default class Main extends Component {
   state = {
@@ -71,13 +71,15 @@ export default class Main extends Component {
             <Login {...props} handleLogin={this.props.handleLogin} />
           )}
         />
+
         <Route
           path="/register"
           render={(props) => (
             <Register {...props} handleRegister={this.props.handleRegister} />
           )}
         />
-        {/* <Route
+
+        <Route
           path="/items"
           render={() => <ShowItems items={this.state.items} />}
         />
@@ -121,7 +123,7 @@ export default class Main extends Component {
             const { id } = props.match.params;
             return <BrandItem brandId={id} brands={this.state.brands} />;
           }}
-        /> */}
+        />
       </main>
     );
   }
