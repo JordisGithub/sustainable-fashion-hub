@@ -4,13 +4,10 @@ import { getOneBrand, addItem } from "../services/api-helper";
 export default class brandItem extends Component {
   state = {
     brand: null,
-    item: "",
+    item: [],
   };
-  componentDidMount() {
-    this.setBrand();
-  }
 
-  setbrand = async () => {
+  setBrand = async () => {
     const brand = await getOneBrand(this.props.brandId);
     this.setState({ brand });
   };
@@ -28,6 +25,11 @@ export default class brandItem extends Component {
     this.setState({ brand });
   };
 
+  componentDidMount() {
+    this.setBrand();
+    debugger;
+  }
+
   render() {
     const { brand } = this.state;
     return (
@@ -43,11 +45,12 @@ export default class brandItem extends Component {
         <form onSubmit={this.handleSubmit}>
           <select onChange={this.handleChange}>
             <option>--Select a item--</option>
-            {this.props.items.map((item) => (
-              <option value={item.id} key={item.id}>
-                {item.name}
-              </option>
-            ))}
+            {this.state.items &&
+              this.state.items.map((item) => (
+                <option value={item.id} key={item.id}>
+                  {item.name}
+                </option>
+              ))}
           </select>
           <button>Add a item</button>
         </form>
