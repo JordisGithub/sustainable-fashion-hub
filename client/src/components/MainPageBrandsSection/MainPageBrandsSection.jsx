@@ -18,6 +18,11 @@ function MainPageBrandsSection(props) {
           <span className="brands-container-Title">BURBERRY CONSCIOUS</span>
           <span className="brands-container-Title">VERSACE</span>
         </div>
+        <button className="brands-button">
+          <a href="/brands" target="_blank">
+            View All
+          </a>
+        </button>
       </div>
     </>
   );
