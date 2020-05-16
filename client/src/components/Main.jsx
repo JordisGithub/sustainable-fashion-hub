@@ -14,7 +14,7 @@ import ShowItems from "../components/ShowItems";
 import ShowBrands from "./ShowBrands";
 import CreateBrand from "./CreateBrand";
 import UpdateBrand from "../components/UpdateBrand";
-import BrandItem from "./BrandItem";
+import BrandItem from "../components/BrandItem/BrandItem";
 
 export default class Main extends Component {
   state = {
