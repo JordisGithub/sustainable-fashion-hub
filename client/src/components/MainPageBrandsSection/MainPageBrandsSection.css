@@ -1,0 +1,133 @@
+.main-page-brands-container {
+  /* outline: green solid 2px; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0;
+  grid-template-rows: 1fr 40px;
+  width: 80%;
+  display: grid;
+  padding: 0;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 50px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  vertical-align: auto;
+  justify-items: center;
+}
+
+.brands-container-photo1,
+.brands-container-photo2,
+.brands-container-photo3,
+.brands-container-photo4 {
+  display: grid;
+
+  width: 17rem;
+  height: 25rem;
+  overflow: hidden;
+  background-position: center;
+  /* background-size: 100%; */
+  background-repeat: no-repeat;
+  margin: auto;
+  display: inline-block;
+  position: relative;
+  /* border: 2px solid red; */
+}
+
+.brands-container-photo1:hover,
+.brands-container-photo2:hover,
+.brands-container-photo3:hover,
+.brands-container-photo4 {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+
+.brands-container-photo1 {
+  background-size: 95%;
+  background-image: url("https://is4.fwrdassets.com/images/p/fw/z/CDES-WS29_V1.jpg");
+}
+.brands-container-photo2 {
+  background-image: url("https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD154_V1.jpg");
+  background-size: 150%;
+  background-position: -41px 5px;
+}
+.brands-container-photo3 {
+  background-size: 130%;
+  background-image: url("https://is4.fwrdassets.com/images/p/fw/z/BURF-WQ6_V5.jpg");
+  background-position: -30px 5px;
+}
+
+.brands-container-photo4 {
+  background-size: 150%;
+  background-image: url("https://is4.fwrdassets.com/images/p/fw/z/VSAC-WS54_V4.jpg");
+  background-position: -41px 5px;
+}
+
+.brands-container-Title {
+  /* border: solid blue 3pt; */
+  font-family: WorkSans-Light;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.3vw;
+  display: inline-block;
+  display: grid;
+  text-align: center;
+  width: auto;
+}
+
+.brands-container-header {
+  /* border: solid blue 3pt; */
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-family: WorkSans-Light;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 4vw;
+  display: inline-block;
+  display: grid;
+  text-align: center;
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .hero-photo-grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 1px;
+    width: 90%;
+    display: grid;
+    grid-gap: 1rem;
+    padding: 0;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    /* margin-top: 40px; */
+    grid-template-columns: repeat(auto-fit, minmax(4, 1fr));
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    vertical-align: auto;
+    justify-items: center;
+  }
+  .hero-photo-div,
+  .hero-photo-div2,
+  .hero-photo-div3,
+  .hero-photo-div4 {
+    width: 300px;
+    height: 200px;
+    margin-top: 0px;
+  }
+
+  span.photo-Title {
+    font-size: 14px;
+    display: inline-block;
+    display: grid;
+    text-align: center;
+
+    width: 20vw;
+    margin-top: -18vh;
+    width: auto;
+  }
+}

@@ -1,0 +1,13 @@
+.site-intro-header {
+  font-family: worksans;
+  font-size: 2.2vw;
+  margin-top: 40px;
+}
+
+.site-intro-container {
+  font-family: worksans;
+  font-size: 1.3vw;
+  width: 85%;
+  margin: auto;
+  line-height: 16pt;
+}
