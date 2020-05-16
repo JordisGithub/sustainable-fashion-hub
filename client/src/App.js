@@ -2,7 +2,8 @@
 import React, { Component } from 'react'
 import { withRouter } from 'react-router';
 import './App.css'
-import Header from './components/Header';
+import Header from './components/Header/Header';
+import HowWeRate from './components/HowWeRate/HowWeRate'
 
 // import ShowBrands from './components/ShowBrands'
 import Main from './components/Main';
@@ -57,12 +58,22 @@ class App extends Component {
           currentUser={this.state.currentUser}
         />
 
+        <div>Ethical brand ratings. There’s an app for that.</div>
+        <div>We rate the sustainability of your favorite brands!</div>
+
+        <div>We also include a sustainability score rating model to rate the brands and provide
+        full transparency around the sustainability impact and rating factors of your favorite
+brands. All brands on he platform are reviewed and signed scorecards.</div>
+        <HowWeRate />
+
+
+
         <Main
           handleRegister={this.handleRegister}
           handleLogin={this.handleLogin}
         />
 
-        {/* <ShowBrands /> */}
+
 
       </div>
     )

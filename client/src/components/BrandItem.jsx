@@ -4,13 +4,17 @@ import { getOneBrand, addItem } from "../services/api-helper";
 export default class brandItem extends Component {
   state = {
     brand: null,
-    item: [],
   };
 
   setBrand = async () => {
     const brand = await getOneBrand(this.props.brandId);
     this.setState({ brand });
   };
+
+  // setBrandItems = async () => {
+  //   const branditems = await getOneBrand(this.props.brandId);
+  //   this.setState({ brand });
+  // };
 
   handleChange = (e) => {
     const { value } = e.target;
@@ -27,31 +31,34 @@ export default class brandItem extends Component {
 
   componentDidMount() {
     this.setBrand();
-    debugger;
+    // debugger;
   }
 
   render() {
     const { brand } = this.state;
+    // const { items } = this.state.brand.items;
+
     return (
       <div>
         {brand && (
           <>
             <h3>{brand.name}</h3>
+            <h3>{brand.id}</h3>
+
             {brand.items.map((item) => (
-              <p key={item.id}>{item.name}</p>
+              <p key={item.id}>{item.product_name}</p>
             ))}
           </>
         )}
         <form onSubmit={this.handleSubmit}>
-          <select onChange={this.handleChange}>
-            <option>--Select a item--</option>
-            {this.state.items &&
-              this.state.items.map((item) => (
-                <option value={item.id} key={item.id}>
-                  {item.name}
-                </option>
-              ))}
-          </select>
+          {/* <select onChange={this.handleChange}> */}
+          {/* <option>--Select--</option> */}
+          {/* {brand.items.map((item) => (
+              <option value={item.id} key={item.id}>
+                {item.product_name}
+              </option> */}
+          {/* ))} */}
+          {/* </select> */}
           <button>Add a item</button>
         </form>
       </div>

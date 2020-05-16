@@ -1,0 +1,40 @@
+header {
+  justify-content: center;
+  margin: auto;
+  width: 95%;
+  font-family: Didot;
+}
+
+.hero-top {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+
+h1 {
+  font-size: 4em;
+  margin: auto;
+  margin-left: 35vw;
+}
+
+user-display {
+  display: grid;
+}
+
+.header-links {
+  align-items: center;
+  font-size: 12px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 15vw 15vw 15vw 15vw;
+  grid-template-rows: 1fr;
+  background-color: gray;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 5vh;
+  margin-top: 2px;
+  font-style: normal;
+  font-family: worksans;
+  font-weight: 400;
+}
