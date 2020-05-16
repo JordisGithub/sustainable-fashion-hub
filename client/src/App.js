@@ -1,6 +1,6 @@
 // import React from 'react';
 import React, { Component } from 'react'
-import { withRouter } from 'react-router';
+import { withRouter, Route } from 'react-router';
 import './App.css'
 import Header from './components/Header/Header';
 import HowWeRate from './components/HowWeRate/HowWeRate'
@@ -55,6 +55,7 @@ class App extends Component {
     return (
 
       <div className="App">
+
         <Header
           handleLogout={this.handleLogout}
           currentUser={this.state.currentUser}
@@ -65,9 +66,14 @@ class App extends Component {
           handleLogin={this.handleLogin}
         />
 
-        <SiteIntro />
-        <HowWeRate />
-        <MainPageBrandsSection />
+        <Route exact path='/'
+          render={(props) => (
+            <div>
+              <SiteIntro />
+              <HowWeRate />
+              <MainPageBrandsSection />
+            </div>
+          )}></Route>
 
 
 

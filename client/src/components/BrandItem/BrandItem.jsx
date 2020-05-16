@@ -40,45 +40,48 @@ export default class brandItem extends Component {
     const { brand } = this.state;
     // const { items } = this.state.brand.items;
 
-    // handleOverall = () => {
-    //   this.setState({
-    //     overall: true,
-    //     animals: false,
-    //     planet: false,
-    //     people: false
-    //   });
-    // };
+    const handleOverall = () => {
+      this.setState({
+        overall: true,
+        animals: false,
+        planet: false,
+        people: false,
+      });
+    };
 
-    // handleAnimals = () => {
-    //   this.setState({
-    //     overall: false,
-    //     animals: true,
-    //     planet: false,
-    //     people: false
-    //   });
+    const handleAnimals = () => {
+      this.setState({
+        overall: false,
+        animals: true,
+        planet: false,
+        people: false,
+      });
+    };
 
-    //   handlePeople = () => {
-    //     this.setState({
-    //       overall: false,
-    //       animals: false,
-    //       planet: true,
-    //       people: false
-    //     });
+    const handlePeople = () => {
+      this.setState({
+        overall: false,
+        animals: false,
+        planet: false,
+        people: true,
+      });
+    };
 
-    //     handlePlanet = () => {
-    //       this.setState({
-    //         overall: true,
-    //         animals: false,
-    //         planet: false,
-    //         people: true
-    //       });
+    const handlePlanet = () => {
+      this.setState({
+        overall: false,
+        animals: false,
+        planet: true,
+        people: false,
+      });
+    };
 
     return (
       <div>
         {brand && (
           <>
             <div>{brand.name}</div>
-            <div>sustainability rating: {brand.sustainability_rating}</div>
+            <div> {brand.description}</div>
             <div className="sustainability-rating"></div>
             <div>sustainability rating breakdown:</div>
 
@@ -89,25 +92,28 @@ export default class brandItem extends Component {
             <div class="tab">
               <button
                 className={this.state.overall ? "active-menu" : "menu-title"}
-                onclick={this.handleOverall}
+                onClick={handleOverall}
               >
                 Overal
               </button>
+
               <button
                 className={this.state.animals ? "active-menu" : "menu-title"}
-                onclick={this.animals}
+                onClick={handleAnimals}
               >
                 Animals
               </button>
+
               <button
-                className={this.state.animals ? "active-menu" : "menu-title"}
-                onclick={this.animals}
+                className={this.state.planet ? "active-menu" : "menu-title"}
+                onClick={handlePlanet}
               >
                 Planet
               </button>
+
               <button
-                className={this.state.animals ? "active-menu" : "menu-title"}
-                onclick={this.animals}
+                className={this.state.people ? "active-menu" : "menu-title"}
+                onClick={handlePeople}
               >
                 People
               </button>
@@ -116,27 +122,38 @@ export default class brandItem extends Component {
             {/* ======================================================
             ===========TABBED RATINGS SECTION =================
             ====================================================== */}
-            <div id="Overall" class="tablinks">
-              <div>{brand.sustainability_rating_description}</div>
-            </div>
 
-            <div id="Animals" class="tablinks">
-              <h3>Animals Rating</h3>
-              <div>{brand.animals_rating}</div>
-              <div>{brand.animals_rating_details}</div>
-            </div>
+            {this.state.overall && (
+              <div id="overall" class="tablinks">
+                <h3>Overall Rating</h3>
+                <div>{brand.sustainability_rating}</div>
+                <div>{brand.sustainability_rating_description}</div>
+              </div>
+            )}
 
-            <div id="Planet" class="tablinks">
-              <h3>Planet Rating</h3>
-              <div>{brand.planet_rating}</div>
-              <div>{brand.planet_rating_details}</div>
-            </div>
+            {this.state.animals && (
+              <div id="animals" class="tablinks">
+                <h3>Animals Rating</h3>
+                <div>{brand.animals_rating}</div>
+                <div>{brand.animals_rating_details}</div>
+              </div>
+            )}
 
-            <div id="People" class="tablinks">
-              <h3>People Rating</h3>
-              <div>{brand.people_rating}</div>
-              <div>{brand.people_rating_details}</div>
-            </div>
+            {this.state.planet && (
+              <div id="planet" class="tablinks">
+                <h3>Planet Rating</h3>
+                <div>{brand.planet_rating}</div>
+                <div>{brand.planet_rating_details}</div>
+              </div>
+            )}
+
+            {this.state.people && (
+              <div id="people" class="tablinks">
+                <h3>People Rating</h3>
+                <div>{brand.people_rating}</div>
+                <div>{brand.people_rating_details}</div>
+              </div>
+            )}
 
             {/* ======================================================
             ===========BRAND Items Section SECTION =================
@@ -144,7 +161,11 @@ export default class brandItem extends Component {
 
             <div className="brand-products-wrapper">
               {brand.items.map((item) => (
-                <p key={item.id}>{item.product_name}</p>
+                <p key={item.id}>
+                  {" "}
+                  <img src={item.pic1} alt="" />
+                  {item.product_name}
+                </p>
               ))}
             </div>
           </>

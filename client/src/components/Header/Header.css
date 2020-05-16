@@ -1,4 +1,5 @@
 header {
+  /* border: solid red 3pt; */
   justify-content: center;
   margin: auto;
   width: 95%;
@@ -6,19 +7,30 @@ header {
 }
 
 .hero-top {
+  /* border: solid blue 3pt; */
   margin-top: 20px;
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+}
+
+.site-logo {
+  text-decoration: none;
+  color: black;
 }
 
 h1 {
+  /* border: solid greenyellow 3pt; */
   font-size: 4em;
   margin: auto;
-  margin-left: 35vw;
+  display: flex;
+  justify-content: center;
+  padding-left: 10vw;
 }
 
-user-display {
-  display: grid;
+.user-display {
+  /* border: solid pink 3pt; */
+  /* justify-content: start; */
 }
 
 .header-links {
@@ -28,7 +40,7 @@ user-display {
   display: grid;
   grid-template-columns: 15vw 15vw 15vw 15vw;
   grid-template-rows: 1fr;
-  background-color: gray;
+  background-color: black;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
@@ -37,4 +49,14 @@ user-display {
   font-style: normal;
   font-family: worksans;
   font-weight: 400;
+  width: 100%;
+}
+
+.header-links2 {
+  text-decoration: none;
+  color: white;
+  font-size: 1.14em;
+  font-weight: 500;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
 }

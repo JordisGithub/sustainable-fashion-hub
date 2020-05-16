@@ -6,7 +6,13 @@ export default function Header(props) {
   return (
     <header>
       <div className="hero-top">
-        <h1>Sustainably Chic</h1>
+        <Link
+          className="site-logo"
+          // style={{ paddingLeft: 13, textDecoration: "none" }}
+          to="/"
+        >
+          <h1>Sustainably Chic</h1>
+        </Link>
 
         <div className="user-display">
           {props.currentUser ? (
@@ -21,19 +27,22 @@ export default function Header(props) {
       </div>
 
       <div className="header-links">
-        {props.currentUser && (
-          <>
-            <Link
-              style={{ paddingLeft: 13, textDecoration: "none" }}
-              to="/brands"
-            >
-              See All Brands
-            </Link>
-            <Link to="/items">See All Clothing</Link>
-            <Link to="/ratings">Ratings</Link>
-            <Link to="/aboutus">About Us</Link>
-          </>
-        )}
+        {/* {props.currentUser && ( */}
+        <>
+          <Link className="header-links2" to="/brands">
+            See All Brands
+          </Link>
+          <Link className="header-links2" to="/items">
+            See All Clothing
+          </Link>
+          <Link className="header-links2" to="/ratings">
+            Ratings
+          </Link>
+          <Link className="header-links2" to="/aboutus">
+            About Us
+          </Link>
+        </>
+        {/* )} */}
       </div>
     </header>
   );

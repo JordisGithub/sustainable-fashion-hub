@@ -66,6 +66,7 @@ export default class Main extends Component {
     return (
       <main>
         <Route
+          exact
           path="/login"
           render={(props) => (
             <Login {...props} handleLogin={this.props.handleLogin} />
@@ -73,6 +74,7 @@ export default class Main extends Component {
         />
 
         <Route
+          exact
           path="/register"
           render={(props) => (
             <Register {...props} handleRegister={this.props.handleRegister} />
@@ -80,6 +82,7 @@ export default class Main extends Component {
         />
 
         <Route
+          exact
           path="/items"
           render={() => <ShowItems items={this.state.items} />}
         />
@@ -95,6 +98,7 @@ export default class Main extends Component {
           )}
         />
         <Route
+          exact
           path="/new/brands"
           render={(props) => (
             <CreateBrand
@@ -104,6 +108,7 @@ export default class Main extends Component {
           )}
         />
         <Route
+          exact
           path="/brands/:id/edit"
           render={(props) => {
             const { id } = props.match.params;
