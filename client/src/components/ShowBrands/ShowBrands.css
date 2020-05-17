@@ -1,0 +1,52 @@
+.showbrands-wrapper {
+  /* border: red 1pt solid; */
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
+  font-family: "Work Sans", sans-serif;
+  width: 700px;
+  margin: auto;
+  grid-gap: 30px;
+}
+
+h3 {
+  /* border: blue 1pt solid; */
+  font-family: "Work Sans", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.brandslist-black-button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 10pt;
+  width: 100%;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.brandslist-white-button {
+  text-transform: uppercase;
+  padding: 10px 10px;
+  font-weight: 600;
+  font-size: 10pt;
+  width: 100px;
+  margin: auto;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1pt black solid;
+  text-decoration: none;
+}
+
+.brandslist-brand {
+  /* border: blue 1pt solid; */
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}

@@ -201,9 +201,9 @@ export default class brandItem extends Component {
         {/* <form onSubmit={this.handleSubmit}>
           <button>Add a item</button>
         </form> */}
-        <Link to="/new/brands">
+        {/* <Link to="/new/brands">
           <button className="branditem-button">Create</button>
-        </Link>
+        </Link> */}
       </div>
     );
   }

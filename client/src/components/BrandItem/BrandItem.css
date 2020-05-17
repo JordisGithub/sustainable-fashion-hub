@@ -58,13 +58,14 @@
   /* display: flex; */
   width: 70%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 1fr;
   /* border: 1px solid green; */
 }
 
 .rating-number {
   /* border: 1px solid red; */
   text-align: left;
+  margin: auto;
 }
 
 .rating-description-section {
