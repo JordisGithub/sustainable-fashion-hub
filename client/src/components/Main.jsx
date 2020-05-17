@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
 
-import Login from "./Login";
-import Register from "./Register";
+import Login from "../components/Login/Login";
+import Register from "../components/Register/Register";
 import {
   getAllItems,
   getAllBrands,
@@ -11,10 +11,14 @@ import {
   destroyBrand,
 } from "../services/api-helper";
 import ShowItems from "../components/ShowItems/ShowItems";
-import ShowBrands from "./ShowBrands";
-import CreateBrand from "./CreateBrand";
-import UpdateBrand from "../components/UpdateBrand";
+import ShowBrands from "../components/ShowBrands/ShowBrands";
+import CreateBrand from "../components/CreateBrand/CreateBrand";
 import BrandItem from "../components/BrandItem/BrandItem";
+
+// import UpdateBrand from "../components/UpdateBrand";
+import "../components/UpdateBrand/UpdateBrand.css";
+
+import UpdateBrand from "../components/UpdateBrand/UpdateBrand.jsx";
 
 export default class Main extends Component {
   state = {

@@ -1,0 +1,59 @@
+.login-wrapper {
+  /* border: 2pt red solid; */
+  display: grid;
+  font-family: "Work Sans", sans-serif;
+  width: 300px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.black-button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 10pt;
+  width: 100%;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.white-button {
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 10pt;
+  width: 100%;
+  margin: auto;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1pt black solid;
+  text-decoration: none;
+}
+
+.login-wrapper h3 {
+  font-size: 14pt;
+  font-weight: 400;
+}
+
+.login-wrapper input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: auto;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.login-wrapper label {
+  display: flex;
+  padding-bottom: 5pt;
+  text-transform: capitalize;
+}
+
+.login-wrapper div {
+  padding: 20px;
+}

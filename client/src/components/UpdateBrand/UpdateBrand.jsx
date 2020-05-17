@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { getOneBrand } from "../services/api-helper";
+import { getOneBrand } from "../../services/api-helper";
 
 export default class UpdateBrand extends Component {
   state = {
