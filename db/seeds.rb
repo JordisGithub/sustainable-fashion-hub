@@ -13,7 +13,7 @@ User.create(username: "AdminBurberry", brand: "Burberry", name: "Jordi", email: 
 p "#{User.count} user(s) created"
 
 
-reformation = Brand.create(
+@reformation = Brand.create(
  {
    name: "Reformation",
    description: "aufhadhfuadhfadhfadhfhdfo",
@@ -28,7 +28,7 @@ reformation = Brand.create(
  }
 )
 
-burberry = Brand.create(
+@burberry = Brand.create(
  {
    name: "Burberry",
    description: "Founded by Thomas Burberry in 1856, Burberry Group is a British luxury fashion house, distributing outerwear, fashion accessories, fragrances, sunglasses, and cosmetics. Its distinctive tartan pattern has become known worldwide. The brand now operates 3 sub-brands: Burberry Prorsum, Burberry London and Burberry Brit. The Burberry London collection consists of elegant and tailored collection featuring iconic garments",
@@ -42,7 +42,7 @@ burberry = Brand.create(
    animals_rating_details: "Its animal rating is 'not good enough'. It uses leather, exotic animal skin and exotic animal hair. It states that it sources wool from non-mulesed sheep. It uses down accredited by the Responsible Down Standard. It does not use fur or angora."
  })
 
- stellaMccarthy = Brand.create(
+ @stellaMccarthy = Brand.create(
  {
    name: "Stella McCarthy",
    description: "British designer Stella McCartney cut her teeth at Christian Lacroix, honed her skills on Savile Row, and refined her style as chief designer at Chloe before debuting her eponymous line in 2001. Known for tailored, feminine silhouettes, McCartney's easy aesthetic and cruelty-free clothing is a favorite with an international roster of trendsetters.",
@@ -56,7 +56,7 @@ burberry = Brand.create(
    animals_rating_details: "Its animal rating is 'good'. It does not use leather, down, fur, angora, shearling or exotic animal skins or hairs. It uses wool and cashmere."
  })
 
- patbo = Brand.create(
+ @patbo = Brand.create(
  {
    name: "Patbo",
    description: "The official store of Brazilian fashion designer Patricia Bonaldi. PatBO is a Brazilian fashion brand that captures the vibrant energy of South America through it’s artfully hand-embroidered Ready-To-Wear and Swim Collections.",
@@ -70,7 +70,7 @@ burberry = Brand.create(
    animals_rating_details: "Its animal rating is 'good'. It does not use fur, leather, down, exotic animal skin, exotic animal hair or angora. It uses wool and silk"
  })
 
- valentino = Brand.create(
+ @valentino = Brand.create(
  {
    name: "Valentino",
    description: "Valentino Garavani is best known for designing elegant gowns and structured silhouettes popular with European and Hollywood royalty. In addition to the brand's mainline, in 1968 Valentino introduced the White collection, following it up with the V label, and then developed his own signature shade of red. Since Valentino's retirement in 2007, Maria Grazia Chiuro and Pier Paolo Piccioli now act as creative directors.",
@@ -91,7 +91,7 @@ p "#{Brand.count} brand(s) created"
 items = Item.create([
  {
    product_name: "Long Sleeve Dress",
-   brand_id: burberry.id,
+   brand: @burberry,
    price: "690",
    description: "Self: 95% cotton, 5% elastan\nTrim: 100% poly\nMade in Thailand\nMachine wash\nPartial button front closures\nSide slit pockets\nWaist tie detail\nButtoned sleeve tab detail\nOur Style No. BURF-WD8\nManufacturer Style No. 8024585",
    pic1: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WD8_V1.jpg",
@@ -102,7 +102,7 @@ items = Item.create([
 
  {
    product_name: "Stripe Shirt Dress",
-   brand_id: burberry.id,
+   brand: @burberry,
    price: "1,390",
    description: "\nSelf & Trim: 100% cotton\nMade in Tunisia\nMachine wash\nUnlined\nButton front closures\nBreast pockets\nRubberized logo detail at pocket\nShirttail hem\nSleeve tie detail\nOur Style No. BURF-WD6\nManufacturer Style No. 4564552",
    pic1: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WD6_V1.jpg",
@@ -112,7 +112,7 @@ items = Item.create([
  },
  {
    product_name: "Crew Neck Skin Top",
-   brand_id: burberry.id,
+   brand: @burberry,
    price: "590",
    description: "5% cotton, 25% poly\nMade in Portugal\nHand wash\nLightweight logo print woven fabric\nHidden back partial zip closure\nSemi sheer\nOur Style No. BURF-WS25\nManufacturer Style No. 8026472\nModel is wearing size S. View detailed measurements of this item.",
    pic1: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS25_V1.jpg",
@@ -122,7 +122,7 @@ items = Item.create([
  },
  {
    product_name: "Penk Polo Top",
-   brand_id: burberry.id,
+   brand: @burberry,
    price: "490",
    description: "Self: 100% extra fine merino wool\nRib & Trim: 95% extra fine merino wool 4% polyamide 1% elastan\nMade in China\nDry clean only\nLightweight knit fabric\nRib knit trim\nPartial button front closure\nSignature plaid trim\nContrast cuff detail\nOur Style No. BURF-WS16\nManufacturer Style No. 8024766",
    pic1: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS16_V1.jpg",
@@ -132,7 +132,7 @@ items = Item.create([
  },
  {
    product_name: "Knit Polo Top",
-   brand_id: burberry.id,
+   brand: @burberry,
    price: "580",
    description: "Self: 100% merino wool\nRib: 95% merino wool 4% polyamide 1% elastan\nMade in China\nDry clean only\nPartial snap button front closures\nMid-weight knit fabric\nRib knit trim\nOur Style No. BURF-WS22\nManufacturer Style No. 8017141",
    pic1: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS22_V1.jpg",
@@ -142,7 +142,7 @@ items = Item.create([
  },
  {
    product_name: "Amelie Tie Blouse",
-   brand_id: burberry.id,
+   brand: @burberry,
    price: "623",
    description: "100% silk\nMade in China\nDry clean only\nSnap button front and cuff closures\nNeck tie detail\nBreast pockets\nSemi sheer\nOur Style No. BURF-WS20\nManufacturer Style No. 8024258",
    pic1: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS20_V1.jpg",
@@ -152,7 +152,7 @@ items = Item.create([
  },
  {
    product_name: "Dianna One Shoulder Mini Dress",
-   brand_id: stellaMccarthy.id,
+   brand: @stellaMccarthy,
    price: "2,900",
    description: "Self: 52% viscose, 45% acetate, 3% elastan\nContrast Fabric: 100% polyamide\nLining: 100% silk\nTrim: 100% metal\nMade in Italy\nDry clean only\nFully lined\nHidden side zip closure\nGold-tone metal snakechain trim\nOur Style No. SMCC-WD155\nManufacturer Style No. 600148SNA28",
    pic1: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD155_V1.jpg",
@@ -162,7 +162,7 @@ items = Item.create([
  },
  {
    product_name: "Knit Mini Dress",
-   brand_id: stellaMccarthy.id,
+   brand: @stellaMccarthy,
    price: "1,395",
    description: "83% viscose, 17% poly\nMade in Italy\nDry clean only\nUnlined\nHidden side zip closure\nLightweight structured knit fabric\nOur Style No. SMCC-WD154\nManufacturer Style No. 600766S2076",
    pic1: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD154_V1.jpg",
@@ -172,7 +172,7 @@ items = Item.create([
  },
  {
    product_name: "Parkes Evening Deep V Dress",
-   brand_id: stellaMccarthy.id,
+   brand: @stellaMccarthy,
    price: "525",
    description: "Self: 49% viscose, 48% acetate, 3% elastan\nContrast Fabric: 100% polyamide\nLining: 100% silk\nMade in Hungary\nDry clean only\nFully lined\nMesh knit detail on front\nHidden back zip closure\nSide slit pockets\nOur Style No. SMCC-WD145\nManufacturer Style No. 582795SNA28",
    pic1: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD145_V1.jpg",
@@ -182,7 +182,7 @@ items = Item.create([
  },
  {
    product_name: "One Shoulder Dress",
-   brand_id: stellaMccarthy.id,
+   brand: @stellaMccarthy,
    price: "551",
    description: "Self & Lining: 100% silk\nMade in Hungary\nDry clean only\nFully lined\nHidden side zip closure\nBelted waist\nTiered ruffled detail\nOur Style No. SMCC-WD134\nManufacturer Style No. 559199SY206",
    pic1: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD134_V1.jpg",
