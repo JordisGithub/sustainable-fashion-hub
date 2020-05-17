@@ -10,7 +10,7 @@ import {
   putBrand,
   destroyBrand,
 } from "../services/api-helper";
-import ShowItems from "../components/ShowItems";
+import ShowItems from "../components/ShowItems/ShowItems";
 import ShowBrands from "./ShowBrands";
 import CreateBrand from "./CreateBrand";
 import UpdateBrand from "../components/UpdateBrand";
