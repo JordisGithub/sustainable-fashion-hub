@@ -88,7 +88,7 @@ p "#{User.count} user(s) created"
 
 p "#{Brand.count} brand(s) created"
 
-items = Item.create([
+@longSleeveDress = Item.create(
  {
    product_name: "Long Sleeve Dress",
    brand: @burberry,
@@ -100,7 +100,10 @@ items = Item.create([
    pic4: ""
 },
 
- {
+)
+
+@stripeShirt = Item.create({
+ 
    product_name: "Stripe Shirt Dress",
    brand: @burberry,
    price: "1,390",
@@ -109,90 +112,92 @@ items = Item.create([
    pic2: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WD6_V2.jpg",
    pic3: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WD6_V3.jpg",
    pic4: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WD6_V4.jpg"
- },
- {
-   product_name: "Crew Neck Skin Top",
-   brand: @burberry,
-   price: "590",
-   description: "5% cotton, 25% poly\nMade in Portugal\nHand wash\nLightweight logo print woven fabric\nHidden back partial zip closure\nSemi sheer\nOur Style No. BURF-WS25\nManufacturer Style No. 8026472\nModel is wearing size S. View detailed measurements of this item.",
-   pic1: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS25_V1.jpg",
-   pic2: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS25_V2.jpg",
-   pic3: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS25_V3.jpg",
-   pic4: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS25_V5.jpg"
- },
- {
-   product_name: "Penk Polo Top",
-   brand: @burberry,
-   price: "490",
-   description: "Self: 100% extra fine merino wool\nRib & Trim: 95% extra fine merino wool 4% polyamide 1% elastan\nMade in China\nDry clean only\nLightweight knit fabric\nRib knit trim\nPartial button front closure\nSignature plaid trim\nContrast cuff detail\nOur Style No. BURF-WS16\nManufacturer Style No. 8024766",
-   pic1: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS16_V1.jpg",
-   pic2: "",
-   pic3: "",
-   pic4: ""
- },
- {
-   product_name: "Knit Polo Top",
-   brand: @burberry,
-   price: "580",
-   description: "Self: 100% merino wool\nRib: 95% merino wool 4% polyamide 1% elastan\nMade in China\nDry clean only\nPartial snap button front closures\nMid-weight knit fabric\nRib knit trim\nOur Style No. BURF-WS22\nManufacturer Style No. 8017141",
-   pic1: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS22_V1.jpg",
-   pic2: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS22_V2.jpg",
-   pic3: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS22_V3.jpg",
-   pic4: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS22_V4.jpg"
- },
- {
-   product_name: "Amelie Tie Blouse",
-   brand: @burberry,
-   price: "623",
-   description: "100% silk\nMade in China\nDry clean only\nSnap button front and cuff closures\nNeck tie detail\nBreast pockets\nSemi sheer\nOur Style No. BURF-WS20\nManufacturer Style No. 8024258",
-   pic1: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS20_V1.jpg",
-   pic2: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS20_V2.jpg",
-   pic3: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS20_V3.jpg",
-   pic4: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS20_V4.jpg"
- },
- {
-   product_name: "Dianna One Shoulder Mini Dress",
-   brand: @stellaMccarthy,
-   price: "2,900",
-   description: "Self: 52% viscose, 45% acetate, 3% elastan\nContrast Fabric: 100% polyamide\nLining: 100% silk\nTrim: 100% metal\nMade in Italy\nDry clean only\nFully lined\nHidden side zip closure\nGold-tone metal snakechain trim\nOur Style No. SMCC-WD155\nManufacturer Style No. 600148SNA28",
-   pic1: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD155_V1.jpg",
-   pic2: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD155_V2.jpg",
-   pic3: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD155_V3.jpg",
-   pic4: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD155_V4.jpg"
- },
- {
-   product_name: "Knit Mini Dress",
-   brand: @stellaMccarthy,
-   price: "1,395",
-   description: "83% viscose, 17% poly\nMade in Italy\nDry clean only\nUnlined\nHidden side zip closure\nLightweight structured knit fabric\nOur Style No. SMCC-WD154\nManufacturer Style No. 600766S2076",
-   pic1: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD154_V1.jpg",
-   pic2: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD154_V2.jpg",
-   pic3: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD154_V3.jpg",
-   pic4: ""
- },
- {
-   product_name: "Parkes Evening Deep V Dress",
-   brand: @stellaMccarthy,
-   price: "525",
-   description: "Self: 49% viscose, 48% acetate, 3% elastan\nContrast Fabric: 100% polyamide\nLining: 100% silk\nMade in Hungary\nDry clean only\nFully lined\nMesh knit detail on front\nHidden back zip closure\nSide slit pockets\nOur Style No. SMCC-WD145\nManufacturer Style No. 582795SNA28",
-   pic1: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD145_V1.jpg",
-   pic2: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD145_V2.jpg",
-   pic3: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD145_V3.jpg",
-   pic4: ""
- },
- {
-   product_name: "One Shoulder Dress",
-   brand: @stellaMccarthy,
-   price: "551",
-   description: "Self & Lining: 100% silk\nMade in Hungary\nDry clean only\nFully lined\nHidden side zip closure\nBelted waist\nTiered ruffled detail\nOur Style No. SMCC-WD134\nManufacturer Style No. 559199SY206",
-   pic1: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD134_V1.jpg",
-   pic2: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD134_V2.jpg",
-   pic3: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD134_V3.jpg",
-   pic4: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD134_V4.jpg"
- }
-]
+ 
+}
 )
+#  {
+#    product_name: "Crew Neck Skin Top",
+#    brand: @burberry,
+#    price: "590",
+#    description: "5% cotton, 25% poly\nMade in Portugal\nHand wash\nLightweight logo print woven fabric\nHidden back partial zip closure\nSemi sheer\nOur Style No. BURF-WS25\nManufacturer Style No. 8026472\nModel is wearing size S. View detailed measurements of this item.",
+#    pic1: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS25_V1.jpg",
+#    pic2: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS25_V2.jpg",
+#    pic3: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS25_V3.jpg",
+#    pic4: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS25_V5.jpg"
+#  },
+#  {
+#    product_name: "Penk Polo Top",
+#    brand: @burberry,
+#    price: "490",
+#    description: "Self: 100% extra fine merino wool\nRib & Trim: 95% extra fine merino wool 4% polyamide 1% elastan\nMade in China\nDry clean only\nLightweight knit fabric\nRib knit trim\nPartial button front closure\nSignature plaid trim\nContrast cuff detail\nOur Style No. BURF-WS16\nManufacturer Style No. 8024766",
+#    pic1: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS16_V1.jpg",
+#    pic2: "",
+#    pic3: "",
+#    pic4: ""
+#  },
+#  {
+#    product_name: "Knit Polo Top",
+#    brand: @burberry,
+#    price: "580",
+#    description: "Self: 100% merino wool\nRib: 95% merino wool 4% polyamide 1% elastan\nMade in China\nDry clean only\nPartial snap button front closures\nMid-weight knit fabric\nRib knit trim\nOur Style No. BURF-WS22\nManufacturer Style No. 8017141",
+#    pic1: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS22_V1.jpg",
+#    pic2: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS22_V2.jpg",
+#    pic3: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS22_V3.jpg",
+#    pic4: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS22_V4.jpg"
+#  },
+#  {
+#    product_name: "Amelie Tie Blouse",
+#    brand: @burberry,
+#    price: "623",
+#    description: "100% silk\nMade in China\nDry clean only\nSnap button front and cuff closures\nNeck tie detail\nBreast pockets\nSemi sheer\nOur Style No. BURF-WS20\nManufacturer Style No. 8024258",
+#    pic1: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS20_V1.jpg",
+#    pic2: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS20_V2.jpg",
+#    pic3: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS20_V3.jpg",
+#    pic4: "https://is4.fwrdassets.com/images/p/fw/z/BURF-WS20_V4.jpg"
+#  },
+#  {
+#    product_name: "Dianna One Shoulder Mini Dress",
+#    brand: @stellaMccarthy,
+#    price: "2,900",
+#    description: "Self: 52% viscose, 45% acetate, 3% elastan\nContrast Fabric: 100% polyamide\nLining: 100% silk\nTrim: 100% metal\nMade in Italy\nDry clean only\nFully lined\nHidden side zip closure\nGold-tone metal snakechain trim\nOur Style No. SMCC-WD155\nManufacturer Style No. 600148SNA28",
+#    pic1: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD155_V1.jpg",
+#    pic2: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD155_V2.jpg",
+#    pic3: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD155_V3.jpg",
+#    pic4: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD155_V4.jpg"
+#  },
+#  {
+#    product_name: "Knit Mini Dress",
+#    brand: @stellaMccarthy,
+#    price: "1,395",
+#    description: "83% viscose, 17% poly\nMade in Italy\nDry clean only\nUnlined\nHidden side zip closure\nLightweight structured knit fabric\nOur Style No. SMCC-WD154\nManufacturer Style No. 600766S2076",
+#    pic1: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD154_V1.jpg",
+#    pic2: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD154_V2.jpg",
+#    pic3: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD154_V3.jpg",
+#    pic4: ""
+#  },
+#  {
+#    product_name: "Parkes Evening Deep V Dress",
+#    brand: @stellaMccarthy,
+#    price: "525",
+#    description: "Self: 49% viscose, 48% acetate, 3% elastan\nContrast Fabric: 100% polyamide\nLining: 100% silk\nMade in Hungary\nDry clean only\nFully lined\nMesh knit detail on front\nHidden back zip closure\nSide slit pockets\nOur Style No. SMCC-WD145\nManufacturer Style No. 582795SNA28",
+#    pic1: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD145_V1.jpg",
+#    pic2: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD145_V2.jpg",
+#    pic3: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD145_V3.jpg",
+#    pic4: ""
+#  },
+#  {
+#    product_name: "One Shoulder Dress",
+#    brand: @stellaMccarthy,
+#    price: "551",
+#    description: "Self & Lining: 100% silk\nMade in Hungary\nDry clean only\nFully lined\nHidden side zip closure\nBelted waist\nTiered ruffled detail\nOur Style No. SMCC-WD134\nManufacturer Style No. 559199SY206",
+#    pic1: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD134_V1.jpg",
+#    pic2: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD134_V2.jpg",
+#    pic3: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD134_V3.jpg",
+#    pic4: "https://is4.fwrdassets.com/images/p/fw/z/SMCC-WD134_V4.jpg"
+#  }
+# ]
+# )
 
-p "#{Item.count} items(s) created"
+# p "#{Item.count} items(s) created"
 
 
