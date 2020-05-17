@@ -1,11 +1,19 @@
-/* Style the tab */
+/* ========================================
+==========Tab ratings table=============
+======================================== */
+
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
+  width: 95%;
+  margin: auto;
+  font-family: "Work Sans", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 4fr;
+  /* border: solid 2px purple; */
 }
 
-/* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;
   float: left;
@@ -14,22 +22,125 @@
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
+  border: solid 1px #ccc;
 }
 
-/* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #ddd;
 }
 
-/* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  /* background-color: black; */
 }
 
+/* ======================================================
+==========TABBED CONTENT RATINGS SECTION==========================
+================================================= */
 /* Style the tab content */
-.tabcontent {
-  display: none;
+.tablinks {
+  display: grid;
+  width: 95%;
+  margin: auto;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  background-color: #f1f1f1;
+  background-color: #f1f1f1;
+  width: 93%;
+  margin: auto;
+  font-family: "Work Sans", sans-serif;
+  display: grid;
+  grid-template-columns: 3fr 6fr 1fr;
+  /* border: solid 2px purple; */
+}
+
+.rating-results {
+  /* display: flex; */
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* border: 1px solid green; */
+}
+
+.rating-number {
+  /* border: 1px solid red; */
+  text-align: left;
+}
+
+.rating-description-section {
+  /* border: 1px solid red; */
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  text-align: justify;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+
+  /* margin: auto; */
+  /* width: 70%; */
+}
+
+/* ========================================
+==========Top section ==========================
+======================================== */
+
+.brand-intro {
+  /* border: solid 2pt green; */
+  display: grid;
+  width: 95%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  height: 250px;
+  height: auto;
+}
+
+.brand-heading {
+  /* border: solid 2pt red; */
+  font-family: "Work Sans", sans-serif;
+  font-size: 40px;
+  margin-top: 40px;
+  /* text-align: end; */
+  /* width: 40vw; */
+}
+
+.brand-description {
+  /* border: solid 2pt yellowgreen; */
+  margin-top: 40px;
+  text-align: justify;
+  width: 90%;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20pt;
+  padding-bottom: 20pt;
+}
+
+/* ========================================
+==========Brand Items ==========================
+======================================== */
+
+.brand-products-wrapper {
+  /* border: solid 2pt yellowgreen; */
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.brand-products-wrapper img {
+  /* border: solid 2pt yellowgreen; */
+  height: 40vw;
+}
+
+.brand-products-item-name {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+}
+
+.branditem-button {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  margin: 20px;
+  padding: 10px 30px;
+  text-transform: uppercase;
 }

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { getOneBrand, addItem } from "../../services/api-helper";
+import "./BrandItem.css";
+import { Link } from "react-router-dom";
 
 export default class brandItem extends Component {
   state = {
@@ -80,10 +82,11 @@ export default class brandItem extends Component {
       <div>
         {brand && (
           <>
-            <div>{brand.name}</div>
-            <div> {brand.description}</div>
-            <div className="sustainability-rating"></div>
-            <div>sustainability rating breakdown:</div>
+            <div className="brand-intro">
+              <div className="brand-heading">{brand.name}</div>
+              <div className="brand-description"> {brand.description}</div>
+            </div>
+            {/* <div>sustainability rating breakdown:</div> */}
 
             {/* ======================================================
             ====================TABS=====================================
@@ -94,7 +97,7 @@ export default class brandItem extends Component {
                 className={this.state.overall ? "active-menu" : "menu-title"}
                 onClick={handleOverall}
               >
-                Overal
+                Overall Rating
               </button>
 
               <button
@@ -120,38 +123,60 @@ export default class brandItem extends Component {
             </div>
 
             {/* ======================================================
-            ===========TABBED RATINGS SECTION =================
+            ===========TABBED CONTENT RATINGS SECTION =================
             ====================================================== */}
 
             {this.state.overall && (
               <div id="overall" class="tablinks">
-                <h3>Overall Rating</h3>
-                <div>{brand.sustainability_rating}</div>
-                <div>{brand.sustainability_rating_description}</div>
+                <div className="rating-results">
+                  <h3>Overall Rating: </h3>
+                  <h3 className="rating-number">
+                    {brand.sustainability_rating}
+                  </h3>
+                </div>
+
+                <div className="rating-description-section">
+                  {brand.sustainability_rating_description}
+                </div>
               </div>
             )}
 
             {this.state.animals && (
               <div id="animals" class="tablinks">
-                <h3>Animals Rating</h3>
-                <div>{brand.animals_rating}</div>
-                <div>{brand.animals_rating_details}</div>
+                <div className="rating-results">
+                  <h3>Animals Rating</h3>
+                  <h3 className="rating-number">{brand.animals_rating} </h3>
+                </div>
+
+                <div className="rating-description-section">
+                  {brand.animals_rating_details}
+                </div>
               </div>
             )}
 
             {this.state.planet && (
               <div id="planet" class="tablinks">
-                <h3>Planet Rating</h3>
-                <div>{brand.planet_rating}</div>
-                <div>{brand.planet_rating_details}</div>
+                <div className="rating-results">
+                  <h3>Planet Rating</h3>
+                  <h3 className="rating-number">{brand.planet_rating}</h3>
+                </div>
+
+                <div className="rating-description-section">
+                  {brand.planet_rating_details}
+                </div>
               </div>
             )}
 
             {this.state.people && (
               <div id="people" class="tablinks">
-                <h3>People Rating</h3>
-                <div>{brand.people_rating}</div>
-                <div>{brand.people_rating_details}</div>
+                <div className="rating-results">
+                  <h3>People Rating</h3>
+                  <h3 className="rating-number">{brand.people_rating}</h3>
+                </div>
+
+                <div className="rating-description-section">
+                  {brand.people_rating_details}
+                </div>
               </div>
             )}
 
@@ -164,16 +189,21 @@ export default class brandItem extends Component {
                 <p key={item.id}>
                   {" "}
                   <img src={item.pic1} alt="" />
-                  {item.product_name}
+                  <div className="brand-products-item-name">
+                    {item.product_name}
+                  </div>
                 </p>
               ))}
             </div>
           </>
         )}
 
-        <form onSubmit={this.handleSubmit}>
+        {/* <form onSubmit={this.handleSubmit}>
           <button>Add a item</button>
-        </form>
+        </form> */}
+        <Link to="/new/brands">
+          <button className="branditem-button">Create</button>
+        </Link>
       </div>
     );
   }
