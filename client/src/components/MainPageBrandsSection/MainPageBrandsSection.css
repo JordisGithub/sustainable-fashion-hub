@@ -101,7 +101,6 @@
   border: solid white 1pt;
   background-color: black;
   text-decoration: none;
-  color: white;
   font-family: WorkSans-Light;
   font-size: 14px;
   text-align: center;
@@ -109,6 +108,10 @@
   height: 35px;
   display: block;
   margin: 40px 600px;
+}
+
+brands-button-link {
+  color: white;
 }
 
 @media (max-width: 768px) {

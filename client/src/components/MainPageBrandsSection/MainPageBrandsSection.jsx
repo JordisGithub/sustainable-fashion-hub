@@ -19,7 +19,7 @@ function MainPageBrandsSection(props) {
           <span className="brands-container-Title">VERSACE</span>
         </div>
         <button className="brands-button">
-          <a href="/brands" target="_blank">
+          <a className="brands-button-link" href="/brands" target="_blank">
             View All
           </a>
         </button>
