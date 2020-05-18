@@ -61,3 +61,52 @@ h1 {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
 }
+
+/* =================================
+==========media @900==============
+================================ */
+
+@media (max-width: 900px) {
+  .header-links {
+    font-size: 9px;
+  }
+}
+
+/* =================================
+==========media @680==============
+================================ */
+
+@media (max-width: 900px) {
+  .header-links {
+    font-size: 8px;
+  }
+}
+
+/* =================================
+==========media @400==============
+================================ */
+
+@media (max-width: 400px) {
+  header {
+    border: solid red 3pt;
+  }
+
+  .header-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px;
+    height: 13vh;
+    font-size: 14px;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+  }
+
+  .header-links2 {
+    text-decoration: none;
+    color: white;
+    font-size: 1.14em;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+  }
+}

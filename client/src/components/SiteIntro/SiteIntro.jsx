@@ -12,12 +12,6 @@ function SiteIntro(props) {
         <div className="site-intro-container">
           We rate the sustainability of your favorite brands!
         </div>
-
-        {/* <div className="site-intro-container">
-          Our score rating model provides full transparency around the
-          sustainability impact of your favorite brands. All brands on he
-          platform are reviewed and signed scorecards.
-        </div> */}
       </div>
     </>
   );

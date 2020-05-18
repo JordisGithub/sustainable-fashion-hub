@@ -1,13 +1,14 @@
 .brands-container-wrapper {
+  /* outline: green solid 2px; */
   background-color: black;
-  height: 45vw;
+  height: 605px;
 }
 
 .main-page-brands-container {
   /* outline: green solid 2px; */
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 0;
-  grid-template-rows: 1fr 40px;
+  grid-template-rows: 300px 40px;
   width: 80%;
   display: grid;
   padding: 0;
@@ -20,6 +21,11 @@
   -webkit-overflow-scrolling: touch;
   vertical-align: auto;
   justify-items: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  grid-gap: 30px;
 }
 
 .brands-container-photo1,
@@ -27,15 +33,11 @@
 .brands-container-photo3,
 .brands-container-photo4 {
   display: grid;
-  width: 17rem;
-  height: 25rem;
+  width: 200px;
+  height: 285px;
   overflow: hidden;
   background-repeat: no-repeat;
   margin: auto;
-  /* background-position: center; */
-  /* display: inline-block;
-  position: relative; */
-  /* border: 2px solid red; */
 }
 
 .brands-container-photo1:hover,
@@ -72,7 +74,7 @@
   font-family: WorkSans-Light;
   font-weight: 300;
   font-style: normal;
-  font-size: 1.3vw;
+  font-size: 14px;
   display: inline-block;
   display: grid;
   text-align: center;
@@ -89,27 +91,13 @@
   font-family: WorkSans-Light;
   font-weight: 600;
   font-style: normal;
-  font-size: 3vw;
+  font-size: 28px;
   display: inline-block;
   display: grid;
   text-align: center;
   width: 80%;
   color: white;
 }
-
-/* .brands-button {
-  border: solid white 1pt;
-  background-color: black;
-  text-decoration: none;
-  font-family: WorkSans-Light;
-  font-size: 14px;
-  text-align: center;
-  width: 100px;
-  height: 35px;
-  display: block;
-  margin: 40px 600px;
-  color: white;
-} */
 
 .brands-button {
   background-color: black;
@@ -123,47 +111,13 @@
   margin: auto;
   cursor: pointer;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
-  .hero-photo-grid-container {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 300px 1px;
-    width: 90%;
-    display: grid;
-    grid-gap: 1rem;
-    padding: 0;
-    align-items: center;
-    margin: auto;
-    margin-bottom: 50px;
-    /* margin-top: 40px; */
-    grid-template-columns: repeat(auto-fit, minmax(4, 1fr));
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-    vertical-align: auto;
-    justify-items: center;
-  }
-  .hero-photo-div,
-  .hero-photo-div2,
-  .hero-photo-div3,
-  .hero-photo-div4 {
-    width: 300px;
-    height: 200px;
-    margin-top: 0px;
-  }
+/* =========================================
+=========Media Queries===================
+========================================= */
 
-  span.photo-Title {
-    font-size: 14px;
-    display: inline-block;
-    display: grid;
-    text-align: center;
-
-    width: 20vw;
-    margin-top: -18vh;
-    width: auto;
-  }
+@media (max-width: 400px) {
 }

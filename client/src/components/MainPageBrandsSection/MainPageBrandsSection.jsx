@@ -8,10 +8,10 @@ function MainPageBrandsSection(props) {
       <div className="brands-container-wrapper">
         <div className="brands-container-header">Brand Scorecards</div>
         <div className="main-page-brands-container">
-          <Link className="brands-container-photo1" to="/brands/33"></Link>
-          <Link className="brands-container-photo2" to="/brands/30"></Link>
-          <Link className="brands-container-photo3" to="/brands/29"></Link>
-          <Link className="brands-container-photo4" to="/brands/34"></Link>
+          <Link className="brands-container-photo1" to="/brands/30"></Link>
+          <Link className="brands-container-photo2" to="/brands/27"></Link>
+          <Link className="brands-container-photo3" to="/brands/26"></Link>
+          <Link className="brands-container-photo4" to="/brands/31"></Link>
 
           <span className="brands-container-Title">
             COMMES DES GARCONS PLAY
