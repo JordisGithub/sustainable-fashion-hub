@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./MainPageBrandsSection.css";
 
 function MainPageBrandsSection(props) {
@@ -7,10 +8,11 @@ function MainPageBrandsSection(props) {
       <div className="brands-container-wrapper">
         <div className="brands-container-header">Brand Scorecards</div>
         <div className="main-page-brands-container">
-          <div className="brands-container-photo1"></div>
-          <div className="brands-container-photo2"></div>
-          <div className="brands-container-photo3"></div>
-          <div className="brands-container-photo4"></div>
+          <Link className="brands-container-photo1" to="/brands/33"></Link>
+          <Link className="brands-container-photo2" to="/brands/30"></Link>
+          <Link className="brands-container-photo3" to="/brands/29"></Link>
+          <Link className="brands-container-photo4" to="/brands/34"></Link>
+
           <span className="brands-container-Title">
             COMMES DES GARCONS PLAY
           </span>
@@ -18,11 +20,15 @@ function MainPageBrandsSection(props) {
           <span className="brands-container-Title">BURBERRY CONSCIOUS</span>
           <span className="brands-container-Title">VERSACE</span>
         </div>
-        <button className="brands-button">
+        {/* <button className="brands-button">
           <a className="brands-button-link" href="/brands" target="_blank">
             View All
           </a>
-        </button>
+        </button> */}
+
+        <Link className="brands-button" to="/brands">
+          See All Brands
+        </Link>
       </div>
     </>
   );
