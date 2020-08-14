@@ -91,11 +91,21 @@ h1 {
     /* border: solid red 3pt; */
   }
 
+  .hero-top {
+    /* border: solid blue 3pt; */
+    margin-top: 50px;
+  }
+
+  .user-display {
+    margin-top: -20px;
+    margin-left: -10px;
+  }
+
   .header-links {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 20px;
-    height: 13vh;
+    height: 8vh;
     font-size: 14px;
     padding-top: 10pt;
     padding-bottom: 10pt;

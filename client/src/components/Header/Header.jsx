@@ -30,17 +30,17 @@ export default function Header(props) {
         {/* {props.currentUser && ( */}
         <>
           <Link className="header-links2" to="/brands">
-            See All Brands
+            See All Scorecards
           </Link>
           <Link className="header-links2" to="/items">
             See All Clothing
           </Link>
-          <Link className="header-links2" to="/ratings">
+          {/* <Link className="header-links2" to="/ratings">
             Ratings
-          </Link>
-          <Link className="header-links2" to="/aboutus">
+          </Link> */}
+          {/* <Link className="header-links2" to="/aboutus">
             About Us
-          </Link>
+          </Link> */}
         </>
         {/* )} */}
       </div>
