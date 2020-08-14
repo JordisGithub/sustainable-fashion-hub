@@ -88,7 +88,7 @@ h1 {
 
 @media (max-width: 400px) {
   header {
-    border: solid red 3pt;
+    /* border: solid red 3pt; */
   }
 
   .header-links {
