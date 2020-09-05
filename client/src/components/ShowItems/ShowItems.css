@@ -1,26 +1,23 @@
 .products-display {
-  /* border: solid 2pt yellowgreen; */
-
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .showitems-wrapper {
-
+  /* border: solid 2pt yellowgreen; */
   margin: auto;
   display: flex;
   flex-direction: column;
+  padding: 20px 20px 50px;
 }
 
 .showitems-wrapper img {
-  width: 400px;
+  height: 400px;
 }
 
-.show-item-text {
+.show-item-name {
   font-family: "Work Sans", sans-serif;
-  font-size: 16px;
-  margin: 20px;
-  padding: 10px 30px;
+  font-size: 14px;
+  margin: 20px 0 10px;
   text-transform: uppercase;
-  /* border: solid 2pt green; */
 }

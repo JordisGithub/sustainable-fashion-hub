@@ -9,13 +9,9 @@ export default function ShowItems(props) {
       <div className="products-display">
         {props.items.map((item) => (
           <div className="showitems-wrapper">
-            <div>
-              <img src={item.pic1} />
-            </div>
-
-            <div classname="show-item-text">
-              {item.product_name} ${item.price}
-            </div>
+            <img src={item.pic1} />
+            <div className="show-item-name">{item.product_name}</div>
+            <div className="show-item-price">${item.price}</div>
           </div>
         ))}
       </div>
