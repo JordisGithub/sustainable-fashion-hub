@@ -1,9 +1,15 @@
-.showitems-wrapper {
+.products-display {
   /* border: solid 2pt yellowgreen; */
 
-  margin: auto;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.showitems-wrapper {
+
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .showitems-wrapper img {
@@ -16,5 +22,5 @@
   margin: 20px;
   padding: 10px 30px;
   text-transform: uppercase;
-  border: solid 2pt green;
+  /* border: solid 2pt green; */
 }
